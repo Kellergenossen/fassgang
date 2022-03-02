@@ -1,0 +1,272 @@
+@font-face {
+  font-family: BrownStdR;
+  src: url("/media/fonts/BrownStdRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: BrownStdB;
+  src: url("/media/fonts/BrownStdBold.otf") format("opentype");
+}
+
+/* COLORS 
+GREEN: #BCC1B2
+RED: #71210D
+GREY: 1C1C1C
+*/
+
+body {
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+/*              BARREL-AREA  */
+
+#barrel-area {
+  width: 56%;
+  height: 100vh;
+}
+
+/* Barrel Images */
+
+#barrel_images {
+  position: absolute;
+  width: 33vw;
+  left: 1.75vw;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+}
+
+@keyframes fadeInFromNone {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Touchpoints */
+
+.pulsating-circle {
+  background: #bcc1b2;
+  border-radius: 50%;
+  height: 3.328vh;
+  width: 1.758vw;
+  box-shadow: 0 0 0 0 rgba(188, 193, 178, 1);
+  transform: scale(1);
+  position: fixed;
+  z-index: 2;
+  opacity: 0;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(188, 193, 178, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 20px rgba(188, 193, 178, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(188, 193, 178, 0);
+  }
+}
+
+/*              MAIN-AREA  */
+
+#main-area {
+  width: 85vw;
+  height: 100vh;
+}
+
+/* Headlines */
+
+#exhibit-name {
+  position: relative;
+  margin-top: 4.9vh;
+  margin-left: 11.5vw;
+  font: 2.34vw BrownStdB;
+  color: #71210d;
+  text-align: right;
+  width: 27vw;
+}
+#year {
+  position: relative;
+  margin-top: 9.7vh;
+  margin-left: 15vw;
+  width: 24vw;
+  font: 11.25vw BrownStdB;
+  color: #71210d;
+  text-align: right;
+  line-height: 20vh;
+}
+
+#content {
+  margin-top: 50%;
+  transform: translateY(-50%);
+  margin-left: 12.6vw;
+}
+
+#headline {
+  font: 3.75em BrownStdB;
+  width: 26.3vw;
+  color: #71210d;
+  margin-top: 4.9vh;
+}
+#subline {
+  font: 2.25em BrownStdB;
+  width: 36vw;
+  color: #71210d;
+}
+/* Description */
+
+.descriptions {
+  font: 2.25em BrownStdR;
+  color: #71210d;
+  width: 29.14vw;
+}
+/* Carousel */
+
+#carousel {
+  display: none;
+  margin-top: 50%;
+  transform: translateY(-50%);
+  margin-left: 11vw;
+  align-items: center;
+}
+#carousel img {
+  width: 30.78vw;
+  position: absolute;
+  box-shadow: 0 0 1em #71210d;
+}
+#carousel_headline {
+  font: 3.75em BrownStdB;
+  width: 26.3vw;
+  color: #71210d;
+  margin-top: 4.9vh;
+}
+#carousel_card1 {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  width: 30vw;
+  min-height: 70vh;
+  max-height: 80vh;
+  padding-left: 4%;
+  padding-right: 4%;
+  box-shadow: 0 0 1em #71210d;
+}
+
+.carousel_left {
+  z-index: -1;
+  transform: translateX(-35%) scale(0.7);
+  opacity: 0.3;
+}
+.carousel_right {
+  z-index: -1;
+  transform: translateX(35%) scale(0.7);
+  opacity: 0.3;
+}
+.carousel_front {
+  z-index: 1;
+  transform: translateX(0) scale(1);
+  opacity: 1;
+}
+
+/*              SIDEBAR  */
+
+#sidebar {
+  width: 22%;
+  background: #bcc1b2;
+}
+
+/* Logo */
+
+#logo {
+  width: 1.953vw;
+  float: right;
+  margin-top: 1.875em;
+  margin-right: 1.875em;
+}
+
+/* Timeline */
+
+#timeline ul {
+  margin-top: 25vh;
+  margin-right: -2vw;
+  columns: 1;
+  padding: 0;
+  width: 2vw;
+  float: right;
+}
+
+#timeline ul li {
+  display: block;
+  list-style: none;
+  padding-bottom: 2.219vh;
+}
+#timeline ul .arrows {
+  width: 0.664vw;
+  text-align: right;
+  font: bold 1.37vw BrownStdB;
+  color: #71210d;
+  padding-left: 0.7vw;
+}
+#timeline ul .arrows#arrow_bottom {
+  padding-bottom: 0;
+}
+#timeline ul .current_years {
+  width: 14vw;
+  text-align: right;
+  font: 2.34vw BrownStdB;
+  color: #71210d;
+  float: right;
+}
+#timeline ul .other_years {
+  width: 5.5vw;
+  font: 0.93vw BrownStdR;
+  color: #71210d;
+  text-align: right;
+  float: right;
+}
+
+/* https://codepen.io/aybukeceylan/pen/RwrRPoO */
+
+/* Karussell hat 3 Karten; vordere hat höheren z-index, hinteren sind links und rechts plaziert und haben niedrigeren z-index
+beim auswählen wird skaliert, x verschoben und transparenz entfernt */
+
+/* #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+  transform: translatex(-20%) scale(.8);
+  opacity: .4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+  transform: translatex(20%) scale(.8);
+  opacity: .4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+} */
