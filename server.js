@@ -11,4 +11,4 @@ server.get("/", function (req, res) {
 server.use("/", express.static(public));
 
 server.listen(port);
-console.log("server is ready, port: 3000");
+console.log("server is ready, port: 3001");

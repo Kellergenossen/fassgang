@@ -1,4 +1,3 @@
-<!-- test -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -74,5 +73,20 @@
         </ul>
       </div>
     </div>
+    <script>
+      let connection = new WebSocket("ws://192.168.2.100:8080/api");
+      connection.onopen = function () {
+        console.log("connected");
+        connection.send("client");
+      };
+
+      connection.onclose = function () {
+        console.log("disconnected");
+      };
+
+      function sendClick(id, msg) {
+        connection.send(`${id}_${msg}`);
+      }
+    </script>
   </body>
 </html>

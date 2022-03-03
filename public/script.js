@@ -208,6 +208,7 @@ function barrel_before() {
     } else if (circle_clicked === 3) {
       circle3.click();
     }
+    sendClick("Fass-" + (current_barrel + 1), "on");
   }
 }
 window.barrel_before = barrel_before;
