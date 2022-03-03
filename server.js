@@ -2,7 +2,7 @@ let express = require("express");
 let server = express();
 let path = require("path");
 let public = path.join(__dirname, "public");
-let port = 3000;
+let port = 3001;
 
 server.get("/", function (req, res) {
   res.sendFile(path.join(public, "index.html"));
