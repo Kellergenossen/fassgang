@@ -16,7 +16,7 @@ If a person now presses a certain barrel in the application, a variety of inform
 /fassgang/public/script.js = reads the JSON file and uses the information to insert it into the HTML file; helps with a variety of click events <br />
 /fassgang/public/index.html = the basic structure of the exhibit interface; contains almost only empty elements, as these are filled by script.js <br />
 /fassgang/public/style.css = makes up the look of the interface and some animations <br />
-/fassgang/server.js = the script for the local server which shows the index.html on http://localhost:3000
+/fassgang/server.js = the script for the local server which shows the index.html on http://localhost:3001
 
 
 
