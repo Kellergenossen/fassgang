@@ -21,6 +21,7 @@ body {
   width: 100vw;
   overflow: hidden;
   display: flex;
+  background-color: black;
   justify-content: space-between;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -163,7 +164,7 @@ body {
   margin-top: 4.9vh;
 }
 #carousel_card1 {
-  background-color: white;
+  background-color: black;
   display: flex;
   flex-flow: row wrap;
   align-content: center;
