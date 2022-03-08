@@ -116,14 +116,15 @@ function start(jsonObj) {
 
     contentbox.style.display = "none";
     carousel.style.display = "flex";
-    console.log(carousel_img2.src);
 
-    if (carousel_img1.src == "http://localhost:3000/") {
+    if (carousel_img1.src == "http://localhost:3001/") {
       carousel_img1.style.display = "none";
     }
-    if (carousel_img2.src == "http://localhost:3000/") {
+    if (carousel_img2.src == "http://localhost:3001/") {
       carousel_img2.style.display = "none";
-    } else carousel_img2.style.display = "block";
+    } else {
+      carousel_img2.style.display = "block";
+    }
     carousel_headline.innerHTML = "Ingelheim und die Welt";
     carousel_textblock.innerHTML = jsonObj.barrels[current_barrel].news;
 
@@ -195,6 +196,8 @@ function carouseltoright() {
 // function from clicking the top arrow in the timeline
 function barrel_before() {
   if (current_barrel > 0) {
+    carousel_img1.src = "http://localhost:3001/";
+    carousel_img2.src = "http://localhost:3001/";
     current_barrel = current_barrel - 1;
 
     // repeat function; animations starting again
@@ -208,7 +211,7 @@ function barrel_before() {
     } else if (circle_clicked === 3) {
       circle3.click();
     }
-    sendClick("Fass-" + (current_barrel + 1), "on");
+    sendClick("Fass-" + (current_barrel - 1), "on");
   }
 }
 window.barrel_before = barrel_before;
@@ -216,6 +219,8 @@ window.barrel_before = barrel_before;
 // function from clicking the bottom arrow in the timeline
 function barrel_after() {
   if (current_barrel < 21) {
+    carousel_img1.src = "http://localhost:3001/";
+    carousel_img2.src = "http://localhost:3001/";
     current_barrel = current_barrel + 1;
 
     // repeat function; animations starting again
@@ -229,6 +234,7 @@ function barrel_after() {
     } else if (circle_clicked === 3) {
       circle3.click();
     }
+    sendClick("Fass-" + (current_barrel - 1), "on");
   }
 }
 window.barrel_after = barrel_after;

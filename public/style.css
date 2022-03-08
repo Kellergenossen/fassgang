@@ -13,6 +13,10 @@ RED: #71210D
 GREY: 1C1C1C
 */
 
+div#preload {
+  display: none;
+}
+
 body {
   top: 0;
   left: 0;
@@ -126,20 +130,20 @@ body {
 }
 
 #headline {
-  font: 3.75em BrownStdB;
+  font: 4.43vh BrownStdB;
   width: 26.3vw;
   color: #71210d;
   margin-top: 4.9vh;
 }
 #subline {
-  font: 2.25em BrownStdB;
+  font: 2.66vh BrownStdB;
   width: 36vw;
   color: #71210d;
 }
 /* Description */
 
 .descriptions {
-  font: 2.25em BrownStdR;
+  font: 2.66vh BrownStdR;
   color: #71210d;
   width: 29.14vw;
 }
@@ -155,10 +159,10 @@ body {
 #carousel img {
   width: 30.78vw;
   position: absolute;
-  box-shadow: 0 0 1em #71210d;
+  box-shadow: 0 0 1vw #71210d;
 }
 #carousel_headline {
-  font: 3.75em BrownStdB;
+  font: 4.43vh BrownStdB;
   width: 26.3vw;
   color: #71210d;
   margin-top: 4.9vh;
@@ -173,7 +177,7 @@ body {
   max-height: 80vh;
   padding-left: 4%;
   padding-right: 4%;
-  box-shadow: 0 0 1em #71210d;
+  box-shadow: 0 0 1vw #71210d;
 }
 
 .carousel_left {
@@ -204,8 +208,8 @@ body {
 #logo {
   width: 1.953vw;
   float: right;
-  margin-top: 1.875em;
-  margin-right: 1.875em;
+  margin-top: 2.22vh;
+  margin-right: 2.22vh;
 }
 
 /* Timeline */

@@ -26,7 +26,10 @@
       "quote": "1960er der Überläufer er<br>freut das Herz der Säufer",
       "quote_explanation": "Das Motiv des „Überläufers“ geht auf einen Artikel der Allgemeinen Zeitung zurück, in dem von einer übermäßig reichen  Weinernte im Jahr 1960 berichtet wird, welche die Kapazitäten der Keller zum Überlaufen bringt.",
       "news": "John F. Kennedy wird neuer Präsident der USA, während in Ingelheim mit einer übermäßig großen Weinernte gekämpft wird und die Berufsbildende Schule in der Wilhelm-Leuschner-Straße ihren Betrieb aufnimmt.",
-      "news_images": ["media/newspapers/1960_welt.png", ""],
+      "news_images": [
+        "media/newspapers/1960_welt.png",
+        "media/newspapers/1960_lokal.png"
+      ],
       "circle_1_top": "18%",
       "circle_1_left": "14.5%",
       "circle_2_top": "8.1%",
@@ -114,7 +117,10 @@
       "quote": "1964 war ein Sonnenjahr<br>die Reben blüten wunderbar<br>die Trauben waren kerngesund<br>der Wein ist köstlich in aller Mund",
       "quote_explanation": "Die Gestaltung des Fasses wirkt viel moderner als die vorangegangen. Für den neuen Stil ist Otto Weyer verantwortlich, der die beiden Jahrgänge 1964 und 1965 geschnitzt hat.<br>Seine Arbeit entspricht eher dem Zeitgeschmack der 1960er-Jahren, was der Familie Niedecken nicht so gut gefiel, denn nach diesen zwei Fässern beschäftigte sie wieder einen traditionelleren Bildschnitzer.",
       "news": "Martin Luther King wird mit dem Friedensnobelpreis ausgezeichnet. Im Mai stirbt Indiens erster Premierminister Jawaharlal Nehru.<br>In Ingelheim entsteht der neue Stadtteil West mit der Hundert-Morgen-Siedlung für Zuwanderer aus den verlorenen Ostgebieten. Die evangelische Gustav-Adolf-Gemeinde weiht ihre Versöhnungskirche in der Dietrich-Bonhoeffer-Siedlung im Stadtteil West ein.",
-      "news_images": ["media/newspapers/1964_lokal.png", ""],
+      "news_images": [
+        "media/newspapers/1964_welt.png",
+        "media/newspapers/1964_lokal.png"
+      ],
       "circle_1_top": "23%",
       "circle_1_left": "10%",
       "circle_2_top": "15%",
@@ -177,7 +183,10 @@
       "quote": "Für Sorgen sorgt das liebe Leben<br>und Sorgenbrecher sind die Reben",
       "quote_explanation": "Der ausgewählte Spruch scheint die weltweiten politischen Unruhen in diesem Jahr zu kommentieren. Man flüchtet nur zu gern in vergangene Zeiten.<br>Der Bildschnitzer Rudi Lorenz war auch ein talentierter Maler. Er hatte eine Vorliebe für historische Wirtshausszenen. Als Vorlage für seine Gemälde und Zeichnungen diente ihm die historisierende Malerei des 19. Jahrhunderts.",
       "news": "Das Jahr ist geprägt durch viele politischen Unruhen: Martin Luther King wird ermordet, der Studentenführer Rudi Dutschke bei einem Attentat schwer verletzt und der Prager Frühling niedergeschlagen. Der Aufklärungsfilm <i>Das Wunder der Liebe</i> von Oswalt Kolle kommt in die deutschen Kinos.<br>Im Ortsteil Frei-Weinheim nimmt die Autofähre nach Oestrich-Winkel ihren Betrieb auf und der Jugendclub <i>Die Funsel</i> bekommt einen eigenen Beatkeller in der Binger Straße.",
-      "news_images": ["media/newspapers/1968_welt.png", ""],
+      "news_images": [
+        "media/newspapers/1968_welt.png",
+        "media/newspapers/1968_lokal.png"
+      ],
       "circle_1_top": "28%",
       "circle_1_left": "17%",
       "circle_2_top": "12.8%",
@@ -276,7 +285,10 @@
       "quote": "Sektweinjahr 1974<br>zur zweiten Gärung auf den Flaschen<br>war die Säure wie geschaffen<br>der Sekt schmeckt herzhaft und pikant<br>und erfreut uns allesamt",
       "quote_explanation": "Bei der traditionellen Flaschengärung wird der Wein mit Hefe und einer Zuckerlösung versetzt, in Flaschen gefüllt und verschlossen. Die Hefe setzt sich durch die Schräglage des Rüttelpults im Flaschenhals ab. Beim Degorgieren wird der Flaschenhals gefroren, der Hefepfropf schießt durch Eigendruck heraus. Vor dem Wieder-verschließen wird die Flasche mit der sogenannten Dosage aufgefüllt.",
       "news": "Mit Franz Beckenbauer und Gerd Müller werden die Deutschen im Juli Fußballweltmeister im eigenen Land.<br>In Ingelheim wird die A 60 fertiggestellt. Die Düsseldorfer Band Kraftwerk bringt ihr Studioalbum <i>Autobahn</i> heraus, das bis heute vor allem durch das Titellied bekannt ist.",
-      "news_images": ["media/newspapers/1974_welt.png", ""],
+      "news_images": [
+        "media/newspapers/1974_welt.png",
+        "media/newspapers/1974_lokal.png"
+      ],
       "circle_1_top": "21.5%",
       "circle_1_left": "14%",
       "circle_2_top": "9.5%",
@@ -291,7 +303,10 @@
       "quote": "125 Jahre Familienbesitz 1850-1975<br>Zum Jubiläum schenkt ein<br>den guten 1975er Wein",
       "quote_explanation": "Nicht selten befinden sich Weingüter über Jahrhunderte in Familienbesitz. Mit Stolz blickt man auf die eigene Geschichte zurück und gibt das Wissen des Winzerhandwerks an die nächste Generation weiter.",
       "news": "Während der OPEC-Konferenz in Wien nimmt ein internationales Terrorkommando 62 Geiseln, darunter 11 Erdölminister. Der sowjetische Atomphysiker und Regimekritiker Sacharow erhält den Friedensnobelpreis. Seine Frau nimmt ihn stellvertretend in Oslo entgegen.",
-      "news_images": ["media/newspapers/1975_welt.png", ""],
+      "news_images": [
+        "media/newspapers/1975_welt.png",
+        "media/newspapers/1975_lokal.png"
+      ],
       "circle_1_top": "26.5%",
       "circle_1_left": "12.5%",
       "circle_2_top": "16%",
