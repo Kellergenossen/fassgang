@@ -1,4 +1,4 @@
-// function to totally remove the style
+// function to remove style properties
 HTMLElement.prototype.nostyle = function () {
   this.style.removeProperty("background");
   this.style.removeProperty("animation");
@@ -10,6 +10,7 @@ let current_barrel = 15; // index of the current barrel
 let index; // index for the timeline element above/below current year
 let circle_clicked = 0; // which touchpoint was clicked
 let carousel_version = 0;
+let tsX;
 
 // HTML elements
 
@@ -176,39 +177,61 @@ function start(jsonObj) {
 }
 
 function carouselstart() {
-  if (carousel_version == 0) {
-    carousel_card1.classList.add("carousel_front");
-    carousel_img1.classList.add("carousel_right");
-    carousel_img2.classList.add("carousel_left");
-  } else {
-    carousel_card1.classList = "carousel_front";
-    carousel_img1.classList = "carousel_right";
-    carousel_img2.classList = "carousel_left";
-  }
-
+  carousel_card1.classList = "carousel_front";
+  carousel_img1.classList = "carousel_right";
+  carousel_img2.classList = "carousel_left";
   carousel_version = 1;
-  carousel_card1.onclick = "";
-  carousel_img1.onclick = carouseltoleft;
-  carousel_img2.onclick = carouseltoright;
+  carousel_card1.ontouchstart = "";
+  carousel_img1.ontouchstart = carouseltoleft;
+  carousel_img2.ontouchstart = carouseltoright;
 }
+
 function carouseltoleft() {
   carousel_img1.classList = "carousel_front";
   carousel_card1.classList = "carousel_left";
   carousel_img2.classList = "carousel_right";
   carousel_version = 2;
-  carousel_img1.onclick = "";
-  carousel_img2.onclick = carouseltoright;
-  carousel_card1.onclick = carouselstart;
+  carousel_img1.ontouchstart = "";
+  carousel_img2.ontouchstart = carouseltoright;
+  carousel_card1.ontouchstart = carouselstart;
 }
 function carouseltoright() {
   carousel_img2.classList = "carousel_front";
   carousel_img1.classList = "carousel_left";
   carousel_card1.classList = "carousel_right";
   carousel_version = 3;
-  carousel_img2.onclick = "";
-  carousel_img1.onclick = carouseltoleft;
-  carousel_card1.onclick = carouselstart;
+  carousel_img2.ontouchstart = "";
+  carousel_img1.ontouchstart = carouseltoleft;
+  carousel_card1.ontouchstart = carouselstart;
 }
+
+carousel.addEventListener("touchstart", function (e) {
+  tsX = e.touches[0].clientX;
+  e.preventDefault();
+});
+
+carousel.addEventListener("touchend", function (e) {
+  let swipeX = e.changedTouches[0].clientX; // swipeX = the Coord when the finger was moved and touch ended
+  // swipe right
+  if (swipeX >= tsX + 200 && carousel_version == 1) {
+    carouseltoright();
+  } else if (swipeX >= tsX + 200 && carousel_version == 2) {
+    carouselstart();
+  } else if (swipeX >= tsX + 200 && carousel_version == 3) {
+    carouseltoleft();
+  }
+  // swipe left
+  else if (swipeX <= tsX - 200 && carousel_version == 1) {
+    carouseltoleft();
+  } else if (swipeX <= tsX - 200 && carousel_version == 2) {
+    carouseltoright();
+  } else if (swipeX <= tsX - 200 && carousel_version == 3) {
+    carouselstart();
+  }
+
+  e.preventDefault();
+});
+
 // function from clicking the top arrow in the timeline
 function barrel_before() {
   if (current_barrel > 1) {
