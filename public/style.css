@@ -50,7 +50,26 @@ body {
   left: 1.75vw;
   top: 50%;
   transform: translate(0, -50%);
-  z-index: 1;
+  z-index: -1;
+  animation: fadeInFromNone 1s 1 ease-out;
+}
+
+/* Touchpoints */
+
+#touchpoints {
+  animation: fadeInFromNone 1s 1 ease-out;
+}
+
+.pulsating-circle {
+  background: #bcc1b2;
+  border-radius: 50%;
+  height: 3.328vh;
+  width: 3.328vh;
+  box-shadow: 0 0 0 0 rgba(188, 193, 178, 1);
+  position: fixed;
+  z-index: 2;
+  animation: pulse 2s infinite;
+  animation-delay: 1s;
 }
 
 @keyframes fadeInFromNone {
@@ -61,20 +80,6 @@ body {
   100% {
     opacity: 1;
   }
-}
-
-/* Touchpoints */
-
-.pulsating-circle {
-  background: #bcc1b2;
-  border-radius: 50%;
-  height: 3.328vh;
-  width: 1.758vw;
-  box-shadow: 0 0 0 0 rgba(188, 193, 178, 1);
-  transform: scale(1);
-  position: fixed;
-  z-index: 2;
-  opacity: 0;
 }
 
 @keyframes pulse {
@@ -108,7 +113,7 @@ body {
   margin-top: 4.9vh;
   margin-left: 11.5vw;
   font: 2.34vw BrownStdB;
-  color: #71210d;
+  color: #bcc1b2;
   text-align: right;
   width: 27vw;
 }
@@ -118,7 +123,7 @@ body {
   margin-left: 15vw;
   width: 24vw;
   font: 11.25vw BrownStdB;
-  color: #71210d;
+  color: #bcc1b2;
   text-align: right;
   line-height: 20vh;
 }
@@ -132,19 +137,19 @@ body {
 #headline {
   font: 4.43vh BrownStdB;
   width: 26.3vw;
-  color: #71210d;
+  color: #bcc1b2;
   margin-top: 4.9vh;
 }
 #subline {
   font: 2.66vh BrownStdB;
   width: 36vw;
-  color: #71210d;
+  color: #bcc1b2;
 }
 /* Description */
 
 .descriptions {
   font: 2.66vh BrownStdR;
-  color: #71210d;
+  color: #bcc1b2;
   width: 29.14vw;
 }
 /* Carousel */
@@ -160,11 +165,12 @@ body {
   width: 30.78vw;
   position: absolute;
   box-shadow: 0 0 1vw #71210d;
+  transition: transform 0.4s ease;
 }
 #carousel_headline {
   font: 4.43vh BrownStdB;
   width: 26.3vw;
-  color: #71210d;
+  color: #bcc1b2;
   margin-top: 4.9vh;
 }
 #carousel_card1 {
@@ -178,6 +184,7 @@ body {
   padding-left: 4%;
   padding-right: 4%;
   box-shadow: 0 0 1vw #71210d;
+  transition: transform 0.4s ease;
 }
 
 .carousel_left {

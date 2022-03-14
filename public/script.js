@@ -1,6 +1,12 @@
+// function to totally remove the style
+HTMLElement.prototype.nostyle = function () {
+  this.style.removeProperty("background");
+  this.style.removeProperty("animation");
+};
+
 // universal parameters
 let exponat;
-let current_barrel = 17; // index of the current barrel
+let current_barrel = 15; // index of the current barrel
 let index; // index for the timeline element above/below current year
 let circle_clicked = 0; // which touchpoint was clicked
 let carousel_version = 0;
@@ -9,7 +15,6 @@ let carousel_version = 0;
 
 // left part
 let barrel_images = document.getElementById("barrel_images");
-let pulsating_circles = document.getElementsByClassName("pulsating-circle");
 let circle1 = document.getElementById("circle-1");
 let circle2 = document.getElementById("circle-2");
 let circle3 = document.getElementById("circle-3");
@@ -36,16 +41,12 @@ let other_years = document.getElementsByClassName("other_years");
 
 function start(jsonObj) {
   sendClick("Fass-" + current_barrel, "on");
-  console.log(current_barrel);
 
   // put text and sources from JSON in HTML
   exhibitname.innerHTML = jsonObj.exponatname;
   barrel_images.src = jsonObj.barrels[current_barrel].image;
   carousel_img1.src = jsonObj.barrels[current_barrel].news_images[0];
   carousel_img2.src = jsonObj.barrels[current_barrel].news_images[1];
-
-  // image fade in
-  barrel_images.style.animation = "fadeInFromNone 1s 1 ease-out";
 
   // positions of the touchpoints from the JSON
   circle1.style.marginTop = jsonObj.barrels[current_barrel].circle_1_top;
@@ -56,19 +57,6 @@ function start(jsonObj) {
 
   circle3.style.marginTop = jsonObj.barrels[current_barrel].circle_3_top;
   circle3.style.marginLeft = jsonObj.barrels[current_barrel].circle_3_left;
-
-  // touchpoints fade in with image
-  for (let a = 0; a < pulsating_circles.length; a++) {
-    pulsating_circles[a].style.animation = "fadeInFromNone 1s 1 ease-out";
-    // touchpoints start to pulsate right after fading in
-    // image animation ends so it can start again with a new barrel
-    setTimeout(function changeanimation() {
-      pulsating_circles[a].style.animation = "pulse 2s infinite";
-      pulsating_circles[a].style.opacity = "1";
-      barrel_images.style.animation = "none";
-      barrel_images.style.opacity = "1";
-    }, 1000);
-  }
 
   // put the current year in the main-area and in the timeline
   // removing all spaces and newlines
@@ -104,6 +92,13 @@ function start(jsonObj) {
   circle1.addEventListener("click", function addText() {
     circle_clicked = 1;
 
+    circle1.style.animation = "none";
+    circle1.style.background = "#1c1c1c";
+    circle1.style.transition = "background 0.5s ease";
+
+    circle2.nostyle();
+    circle3.nostyle();
+
     contentbox.style.display = "block";
     carousel.style.display = "none";
     subline.style.display = "none";
@@ -117,6 +112,13 @@ function start(jsonObj) {
   // second touchpoint = barrel news
   circle2.addEventListener("click", function addText() {
     circle_clicked = 2;
+
+    circle2.style.animation = "none";
+    circle2.style.background = "#1c1c1c";
+    circle2.style.transition = "background 0.5s ease";
+
+    circle1.nostyle();
+    circle3.nostyle();
 
     contentbox.style.display = "none";
     carousel.style.display = "flex";
@@ -142,6 +144,13 @@ function start(jsonObj) {
   circle3.addEventListener("click", function addText() {
     circle_clicked = 3;
 
+    circle3.style.animation = "none";
+    circle3.style.background = "#1c1c1c";
+    circle3.style.transition = "background 0.5s ease";
+
+    circle1.nostyle();
+    circle2.nostyle();
+
     contentbox.style.display = "block";
     carousel.style.display = "none";
     subline.style.display = "block";
@@ -160,6 +169,9 @@ function start(jsonObj) {
     exhibitname.style.display = "block";
     year.style.display = "block";
     circle_clicked = 0;
+    circle1.nostyle();
+    circle2.nostyle();
+    circle3.nostyle();
   });
 }
 
