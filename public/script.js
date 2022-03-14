@@ -1,6 +1,6 @@
 // universal parameters
 let exponat;
-let current_barrel = 14; // index of the current barrel
+let current_barrel = 17; // index of the current barrel
 let index; // index for the timeline element above/below current year
 let circle_clicked = 0; // which touchpoint was clicked
 let carousel_version = 0;
@@ -35,6 +35,8 @@ let current_year = document.getElementById("current_year");
 let other_years = document.getElementsByClassName("other_years");
 
 function start(jsonObj) {
+  // sendClick("Fass-" + current_barrel, "on");
+  console.log("Fass-" + current_barrel);
   // put text and sources from JSON in HTML
   exhibitname.innerHTML = jsonObj.exponatname;
   barrel_images.src = jsonObj.barrels[current_barrel].image;
@@ -78,7 +80,7 @@ function start(jsonObj) {
   // timeline elements above current year
   for (let j = 3; j >= 0; j--) {
     index = current_barrel - (4 - j);
-    if (index >= 0 && index < jsonObj.barrels.length) {
+    if (index >= 1 && index < jsonObj.barrels.length) {
       let str1 = jsonObj.barrels[index].year;
       other_years[j].innerHTML = str1.replace(/\n|&#160;+/g, ""); // removing all spaces and newlines
     } else {
@@ -195,7 +197,7 @@ function carouseltoright() {
 }
 // function from clicking the top arrow in the timeline
 function barrel_before() {
-  if (current_barrel > 0) {
+  if (current_barrel > 1) {
     carousel_img1.src = "http://localhost:3001/";
     carousel_img2.src = "http://localhost:3001/";
     current_barrel = current_barrel - 1;
@@ -211,14 +213,13 @@ function barrel_before() {
     } else if (circle_clicked === 3) {
       circle3.click();
     }
-    sendClick("Fass-" + (current_barrel - 1), "on");
   }
 }
 window.barrel_before = barrel_before;
 
 // function from clicking the bottom arrow in the timeline
 function barrel_after() {
-  if (current_barrel < 21) {
+  if (current_barrel < 22) {
     carousel_img1.src = "http://localhost:3001/";
     carousel_img2.src = "http://localhost:3001/";
     current_barrel = current_barrel + 1;
@@ -234,7 +235,6 @@ function barrel_after() {
     } else if (circle_clicked === 3) {
       circle3.click();
     }
-    sendClick("Fass-" + (current_barrel - 1), "on");
   }
 }
 window.barrel_after = barrel_after;

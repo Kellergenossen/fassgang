@@ -55,7 +55,12 @@
       <!-- TIMELINE -->
       <div id="timeline">
         <ul>
-          <li class="arrows" id="arrow_top" onclick="barrel_before()">
+          <li
+            class="arrows"
+            id="arrow_top"
+            ontouchstart="barrel_before()"
+            onclick="barrel_before()"
+          >
             &#8743;
           </li>
           <li class="other_years"></li>
@@ -67,13 +72,18 @@
           <li class="other_years"></li>
           <li class="other_years"></li>
           <li class="other_years"></li>
-          <li class="arrows" id="arrow_bottom" onclick="barrel_after()">
+          <li
+            class="arrows"
+            id="arrow_bottom"
+            ontouchstart="barrel_after()"
+            onclick="barrel_after()"
+          >
             &#8744;
           </li>
         </ul>
       </div>
     </div>
-    <script>
+    <!-- <script>
       let connection = new WebSocket("ws://localhost:8080/api");
       connection.onopen = function () {
         console.log("connected");
@@ -87,6 +97,6 @@
       function sendClick(id, msg) {
         connection.send(`${id}_${msg}`);
       }
-    </script>
+    </script> -->
   </body>
 </html>
