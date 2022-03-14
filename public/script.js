@@ -35,8 +35,9 @@ let current_year = document.getElementById("current_year");
 let other_years = document.getElementsByClassName("other_years");
 
 function start(jsonObj) {
-  // sendClick("Fass-" + current_barrel, "on");
-  console.log("Fass-" + current_barrel);
+  sendClick("Fass-" + current_barrel, "on");
+  console.log(current_barrel);
+
   // put text and sources from JSON in HTML
   exhibitname.innerHTML = jsonObj.exponatname;
   barrel_images.src = jsonObj.barrels[current_barrel].image;
@@ -87,6 +88,7 @@ function start(jsonObj) {
       other_years[j].innerHTML = "&nbsp"; // spaces in empty elements (positions doesn't change)
     }
   }
+
   // timeline elements below current year
   for (let i = 4; i < 8; i++) {
     index = current_barrel + (i - 3);
@@ -238,6 +240,175 @@ function barrel_after() {
   }
 }
 window.barrel_after = barrel_after;
+
+//clicking on the year in the sidebar changes current_barrel
+function minus4() {
+  if (current_barrel >= 5) {
+    carousel_img1.src = "http://localhost:3001/";
+    carousel_img2.src = "http://localhost:3001/";
+    current_barrel = current_barrel - 4;
+
+    // repeat function; animations starting again
+    start(exponat);
+
+    // if a circle was clicked the page will stay in this section; not returning to the startscreen
+    if (circle_clicked === 1) {
+      circle1.click();
+    } else if (circle_clicked === 2) {
+      circle2.click();
+    } else if (circle_clicked === 3) {
+      circle3.click();
+    }
+  }
+}
+window.minus4 = minus4;
+
+function minus3() {
+  if (current_barrel >= 4) {
+    carousel_img1.src = "http://localhost:3001/";
+    carousel_img2.src = "http://localhost:3001/";
+    current_barrel = current_barrel - 3;
+
+    // repeat function; animations starting again
+    start(exponat);
+
+    // if a circle was clicked the page will stay in this section; not returning to the startscreen
+    if (circle_clicked === 1) {
+      circle1.click();
+    } else if (circle_clicked === 2) {
+      circle2.click();
+    } else if (circle_clicked === 3) {
+      circle3.click();
+    }
+  }
+}
+window.minus3 = minus3;
+
+function minus2() {
+  if (current_barrel >= 3) {
+    carousel_img1.src = "http://localhost:3001/";
+    carousel_img2.src = "http://localhost:3001/";
+    current_barrel = current_barrel - 2;
+
+    // repeat function; animations starting again
+    start(exponat);
+
+    // if a circle was clicked the page will stay in this section; not returning to the startscreen
+    if (circle_clicked === 1) {
+      circle1.click();
+    } else if (circle_clicked === 2) {
+      circle2.click();
+    } else if (circle_clicked === 3) {
+      circle3.click();
+    }
+  }
+}
+window.minus2 = minus2;
+
+function minus1() {
+  if (current_barrel >= 2) {
+    carousel_img1.src = "http://localhost:3001/";
+    carousel_img2.src = "http://localhost:3001/";
+    current_barrel = current_barrel - 1;
+
+    // repeat function; animations starting again
+    start(exponat);
+
+    // if a circle was clicked the page will stay in this section; not returning to the startscreen
+    if (circle_clicked === 1) {
+      circle1.click();
+    } else if (circle_clicked === 2) {
+      circle2.click();
+    } else if (circle_clicked === 3) {
+      circle3.click();
+    }
+  }
+}
+window.minus1 = minus1;
+
+function plus1() {
+  if (current_barrel <= 21) {
+    carousel_img1.src = "http://localhost:3001/";
+    carousel_img2.src = "http://localhost:3001/";
+    current_barrel = current_barrel + 1;
+
+    // repeat function; animations starting again
+    start(exponat);
+
+    // if a circle was clicked the page will stay in this section; not returning to the startscreen
+    if (circle_clicked === 1) {
+      circle1.click();
+    } else if (circle_clicked === 2) {
+      circle2.click();
+    } else if (circle_clicked === 3) {
+      circle3.click();
+    }
+  }
+}
+window.plus1 = plus1;
+
+function plus2() {
+  if (current_barrel <= 20) {
+    carousel_img1.src = "http://localhost:3001/";
+    carousel_img2.src = "http://localhost:3001/";
+    current_barrel = current_barrel + 2;
+
+    // repeat function; animations starting again
+    start(exponat);
+
+    // if a circle was clicked the page will stay in this section; not returning to the startscreen
+    if (circle_clicked === 1) {
+      circle1.click();
+    } else if (circle_clicked === 2) {
+      circle2.click();
+    } else if (circle_clicked === 3) {
+      circle3.click();
+    }
+  }
+}
+window.plus2 = plus2;
+
+function plus3() {
+  if (current_barrel <= 19) {
+    carousel_img1.src = "http://localhost:3001/";
+    carousel_img2.src = "http://localhost:3001/";
+    current_barrel = current_barrel + 3;
+
+    // repeat function; animations starting again
+    start(exponat);
+
+    // if a circle was clicked the page will stay in this section; not returning to the startscreen
+    if (circle_clicked === 1) {
+      circle1.click();
+    } else if (circle_clicked === 2) {
+      circle2.click();
+    } else if (circle_clicked === 3) {
+      circle3.click();
+    }
+  }
+}
+window.plus3 = plus3;
+
+function plus4() {
+  if (current_barrel <= 18) {
+    carousel_img1.src = "http://localhost:3001/";
+    carousel_img2.src = "http://localhost:3001/";
+    current_barrel = current_barrel + 4;
+
+    // repeat function; animations starting again
+    start(exponat);
+
+    // if a circle was clicked the page will stay in this section; not returning to the startscreen
+    if (circle_clicked === 1) {
+      circle1.click();
+    } else if (circle_clicked === 2) {
+      circle2.click();
+    } else if (circle_clicked === 3) {
+      circle3.click();
+    }
+  }
+}
+window.plus4 = plus4;
 
 // XML request so the JSON is usable in the js
 let xmlhttp = new XMLHttpRequest();
