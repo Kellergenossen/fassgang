@@ -1,92 +1,96 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" type="module"></script>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-  </head>
-  <body>
-    <!-- BARREL-AREA -->
 
-    <div id="barrel-area">
-      <img id="barrel_images" src="" />
-      <div id="touchpoints">
-        <!-- Element Fass -->
-        <div class="pulsating-circle" id="circle-1"></div>
-        <!-- Jahr Fass -->
-        <div class="pulsating-circle" id="circle-2"></div>
-        <!-- Spruch Fass -->
-        <div class="pulsating-circle" id="circle-3"></div>
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" type="module"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+
+<body>
+  <!-- BARREL-AREA -->
+
+  <div id="barrel-area">
+    <img id="barrel_images" src="" />
+    <div id="touchpoints">
+      <!-- Element Fass -->
+      <div class="pulsating-circle" id="circle-1"></div>
+      <!-- Jahr Fass -->
+      <div class="pulsating-circle" id="circle-2"></div>
+      <!-- Spruch Fass -->
+      <div class="pulsating-circle" id="circle-3"></div>
+    </div>
+  </div>
+
+  <!-- MAIN-AREA -->
+
+  <div id="main-area">
+    <!-- TOP -->
+    <div id="headlines">
+      <p id="exhibit-name"></p>
+      <p id="year"></p>
+    </div>
+    <!-- BOTTOM -->
+    <div id="content">
+      <p id="headline"></p>
+      <p id="subline"></p>
+      <p class="descriptions" id="description"></p>
+    </div>
+    <div id="carousel">
+      <img id="carousel_img2" class="carousel_left" src="" />
+      <img id="carousel_img1" class="carousel_right" src="" />
+      <div id="carousel_card1" class="carousel_front">
+        <p id="carousel_headline"></p>
+        <p class="descriptions" id="carousel_description"></p>
       </div>
     </div>
+  </div>
 
-    <!-- MAIN-AREA -->
+  <!-- SIDEBAR -->
 
-    <div id="main-area">
-      <!-- TOP -->
-      <div id="headlines">
-        <p id="exhibit-name"></p>
-        <p id="year"></p>
-      </div>
-      <!-- BOTTOM -->
-      <div id="content">
-        <p id="headline"></p>
-        <p id="subline"></p>
-        <p class="descriptions" id="description"></p>
-      </div>
-      <div id="carousel">
-        <img id="carousel_img2" class="carousel_left" src="" />
-        <img id="carousel_img1" class="carousel_right" src="" />
-        <div id="carousel_card1" class="carousel_front">
-          <p id="carousel_headline"></p>
-          <p class="descriptions" id="carousel_description"></p>
-        </div>
-      </div>
+  <div id="sidebar">
+    <!-- LOGO -->
+    <img id="logo" src="media/corporate/pictorial mark.svg" />
+    <!-- TIMELINE -->
+    <div id="timeline">
+      <ul>
+        <li class="arrows" id="arrow_top" onclick="barrel_before()">
+          &#8743;
+        </li>
+        <li class="other_years" onclick="minus4()"></li>
+        <li class="other_years" onclick="minus3()"></li>
+        <li class="other_years" onclick="minus2()"></li>
+        <li class="other_years" onclick="minus1()"></li>
+        <li class="current_years" id="current_year"></li>
+        <li class="other_years" onclick="plus1()"></li>
+        <li class="other_years" onclick="plus2()"></li>
+        <li class="other_years" onclick="plus3()"></li>
+        <li class="other_years" onclick="plus4()"></li>
+        <li class="arrows" id="arrow_bottom" onclick="barrel_after()">
+          &#8744;
+        </li>
+      </ul>
     </div>
+  </div>
+  <script>
+    let isOnline = false;
+    let connection = new WebSocket("ws://localhost:8080/api");
+    connection.onopen = function () {
+      isOnline = true;
+      console.log("connected");
+      connection.send("client");
+    };
 
-    <!-- SIDEBAR -->
+    connection.onclose = function () {
+      console.log("disconnected");
+    };
 
-    <div id="sidebar">
-      <!-- LOGO -->
-      <img id="logo" src="media/corporate/pictorial mark.svg" />
-      <!-- TIMELINE -->
-      <div id="timeline">
-        <ul>
-          <li class="arrows" id="arrow_top" ontouchstart="barrel_before()">
-            &#8743;
-          </li>
-          <li class="other_years" ontouchstart="minus4()"></li>
-          <li class="other_years" ontouchstart="minus3()"></li>
-          <li class="other_years" ontouchstart="minus2()"></li>
-          <li class="other_years" ontouchstart="minus1()"></li>
-          <li class="current_years" id="current_year"></li>
-          <li class="other_years" ontouchstart="plus1()"></li>
-          <li class="other_years" ontouchstart="plus2()"></li>
-          <li class="other_years" ontouchstart="plus3()"></li>
-          <li class="other_years" ontouchstart="plus4()"></li>
-          <li class="arrows" id="arrow_bottom" ontouchstart="barrel_after()">
-            &#8744;
-          </li>
-        </ul>
-      </div>
-    </div>
-    <script>
-      let connection = new WebSocket("ws://localhost:8080/api");
-      connection.onopen = function () {
-        console.log("connected");
-        connection.send("client");
-      };
-
-      connection.onclose = function () {
-        console.log("disconnected");
-      };
-
-      function sendClick(id, msg) {
+    function sendClick(id, msg) {
+      if (isOnline) {
         connection.send(`${id}_${msg}`);
       }
-    </script>
-  </body>
+    }
+  </script>
+</body>
+
 </html>
