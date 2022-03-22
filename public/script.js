@@ -11,6 +11,7 @@ let index; // index for the timeline element above/below current year
 let circle_clicked = 0; // which touchpoint was clicked
 let carousel_version = 0;
 let tsX;
+let cprevEvent;
 
 // HTML elements
 
@@ -205,13 +206,16 @@ function carouseltoright() {
   carousel_card1.ontouchstart = carouselstart;
 }
 
-carousel.addEventListener("touchstart", function (e) {
-  tsX = e.touches[0].clientX;
+carousel.addEventListener("mousedown", function (e) {
+  // tsX = e.touches[0].clientX;
+  tsX = e.clientX;
+  cprevEvent = e;
   e.preventDefault();
 });
 
-carousel.addEventListener("touchend", function (e) {
-  let swipeX = e.changedTouches[0].clientX; // swipeX = the Coord when the finger was moved and touch ended
+carousel.addEventListener("mouseup", function (e) {
+  let swipeX = e.clientX;
+  // let swipeX = e.changedTouches[0].clientX; // swipeX = the Coord when the finger was moved and touch ended
   // swipe right
   if (swipeX >= tsX + 200 && carousel_version == 1) {
     carouseltoright();
@@ -227,6 +231,29 @@ carousel.addEventListener("touchend", function (e) {
     carouseltoright();
   } else if (swipeX <= tsX - 200 && carousel_version == 3) {
     carouselstart();
+  } else {
+    let target = cprevEvent.target.classList[0];
+    if (target == "descriptions") {
+      target = cprevEvent.target.parentNode.classList[0];
+    }
+    if (target == "carousel_left") {
+      // swipe left
+      if (carousel_version == 1) {
+        carouseltoright();
+      } else if (carousel_version == 2) {
+        carouselstart();
+      } else if (carousel_version == 3) {
+        carouseltoleft();
+      }
+    } else if (target == "carousel_right") {
+      if (carousel_version == 1) {
+        carouseltoleft();
+      } else if (carousel_version == 2) {
+        carouseltoright();
+      } else if (carousel_version == 3) {
+        carouselstart();
+      }
+    }
   }
 
   e.preventDefault();
