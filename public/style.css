@@ -226,14 +226,13 @@ body {
 #logo {
   width: 1.953vw;
   float: right;
-  margin-top: 2.22vh;
-  margin-right: 2.22vh;
+  padding: 2.22vh;
 }
 
 /* Timeline */
 
 #timeline ul {
-  margin-top: 25vh;
+  margin-top: 17.5vh;
   margin-right: -2vw;
   columns: 1;
   padding: 0;
@@ -244,8 +243,14 @@ body {
 #timeline ul li {
   display: block;
   list-style: none;
-  padding-bottom: 2.219vh;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
 }
+
+#arrow_top {
+  margin-bottom: -30px;
+}
+
 #timeline ul .arrows {
   width: 0.664vw;
   text-align: right;
@@ -273,7 +278,7 @@ body {
   float: right;
 }
 #timeline ul .other_years {
-  width: 5.5vw;
+  width: 11.5vw;
   font: 0.93vw BrownStdR;
   color: #71210d;
   text-align: right;
