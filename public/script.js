@@ -42,6 +42,8 @@ let current_year = document.getElementById("current_year");
 let other_years = document.getElementsByClassName("other_years");
 
 function start(jsonObj) {
+  barrel_images.classList.remove("fadeIn");
+  barrel_images.classList.add("fadeIn");
   sendClick("Fass-" + current_barrel, "on");
 
   // put text and sources from JSON in HTML
