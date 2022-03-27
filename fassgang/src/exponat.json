@@ -1,0 +1,387 @@
+{
+  "exponatname": "24 Fass voll Geschichte",
+  "barrels": [
+    {
+      "year": "1959",
+      "image": "media/barrels/59.png",
+      "description": "Eine lachende Sonne schickt ihre Strahlen auf ein Meer aus Reben.<br><br>Im Vordergrund ist ein Pferdegespann zu sehen, das ein Fass geladen hat. Daneben sind ein Mann und eine Frau bei der Weinlese.<br><br>Den unteren Teil schmücken zwei aufwendig gestaltete romanische Rundbögen. Unter dem linken Bogen ist ein Weinkeller dargestellt, in dem Mönch und Kellermeister eine Weinprobe abhalten, unter dem rechten eine Wirtshausszene.",
+      "quote": "Die Sonne strahlte, die Rebe lachte<br>1959 edel Wein brachte!",
+      "quote_explanation": "1959 war ein Jahrhundertjahrgang in Deutschland. Nach einem milden Frühling und einem extrem sonnigen Sommer erreichten die Trauben einen außergewöhnlich hohen Reifegrad. Fast die Hälfte der Erntemenge war für die höchsten Qualitätsstufen geeignet.",
+      "news": "Fidel Castro kommt in Kuba an die Macht. Die erste Barbiepuppe der Firma Mattel erscheint auf dem amerikanischen Markt.<br><br>Daheim ereignet sich auf der Strecke Frankfurt–Paris kurz vor Gau-Algesheim ein schweres Zugunglück, bei dem ein D-Zug entgleist. Im Herbst finden zum ersten Mal die <i>Internationalen Tage</i> statt. Dr. Ernst Boehringer beauftragt den Schweizer Dr. François Lachenal mit der Gründung eines Kulturfestivals.",
+      "news_images": [
+        "media/newspapers/1959_welt.jpg",
+        "media/newspapers/1959_lokal.jpg"
+      ],
+      "circle_1_top": "10%",
+      "circle_1_left": "19%",
+      "circle_2_top": "29.9%",
+      "circle_2_left": "19.5%",
+      "circle_3_top": "28.5%",
+      "circle_3_left": "5.4%"
+    },
+    {
+      "year": "1960",
+      "image": "media/barrels/60.png",
+      "description": "Der Fassboden gewährt den Blick in einen Gewölbekeller. Hier stapelt sich auf engstem Raum eine Vielzahl an kleinen und großen Fässern. Alle tragen dieselbe Jahreszahl 1960.<br><br>Der Kellermeister, in römischer Rüstung, ist dabei, eines der Fässer mit einem Krug zu füllen. Dieses droht überzulaufen.",
+      "quote": "1960er der Überläufer er<br>freut das Herz der Säufer",
+      "quote_explanation": "Das Motiv des „Überläufers“ geht auf einen Artikel der Allgemeinen Zeitung zurück, in dem von einer übermäßig reichen  Weinernte im Jahr 1960 berichtet wird, welche die Kapazitäten der Keller zum Überlaufen bringt.",
+      "news": "John F. Kennedy wird neuer Präsident der USA, während in Ingelheim mit einer übermäßig großen Weinernte gekämpft wird und die Berufsbildende Schule in der Wilhelm-Leuschner-Straße ihren Betrieb aufnimmt.",
+      "news_images": [
+        "media/newspapers/1960_welt.jpg",
+        "media/newspapers/1960_lokal.jpg"
+      ],
+      "circle_1_top": "18%",
+      "circle_1_left": "14.5%",
+      "circle_2_top": "8.1%",
+      "circle_2_left": "20.5%",
+      "circle_3_top": "28.5%",
+      "circle_3_left": "4%"
+    },
+    {
+      "year": "1961",
+      "image": "media/barrels/61.png",
+      "description": "Die gesamte Fläche nimmt ein Rebstock ein, an dessen wild verschlungenen Trieben nur ein paar verdorrte Blätter hängen.<br><br>In den Zwischenräumen tummeln sich zahlreiche Tiere: Mäuse, Schnecken, Käfer, Frösche, Schmetterlinge und Vögel, die es allesamt auf die reifen Trauben abgesehen haben.<br><br>Der Winzer steht mit der Spritze auf dem Rücken mittendrin und versucht das Übel abzuwenden.",
+      "quote": "Mäuse und Schädlinge gross und klein<br>die zerstörten 1961 sehr viel Wein",
+      "quote_explanation": "Schädlinge können ganze Ernten ruinieren oder den Ertrag empfindlich verringern wie 1961 geschehen.<br>Die Fässer der Sammlung geben unter anderem Auskunft über die Bedingungen des jeweiligen Weinjahrs und stellen damit eine Art Chronik des Weinguts Kirchenstück dar.",
+      "news": "Im April 1961 fliegt der Russe Juri Gagarin als erster Mensch ins Weltall. Im August beginnt der Mauerbau in Berlin. Die Antibabypille kommt in Deutschland auf den Markt.",
+      "news_images": [
+        "media/newspapers/1961_welt.jpg",
+        "media/newspapers/1961_lokal.jpg"
+      ],
+      "circle_1_top": "19%",
+      "circle_1_left": "17.5%",
+      "circle_2_top": "13%",
+      "circle_2_left": "26.9%",
+      "circle_3_top": "27.5%",
+      "circle_3_left": "3.8%"
+    },
+    {
+      "year": "1962",
+      "image": "media/barrels/62.png",
+      "description": "Der Kopf des beliebten römischen Wein-gottes Bacchus schmückt das zentrale Feld. Er hat einen langen, wallenden Bart und zwei Hörner auf der Stirn. Sein Gesicht ist zu einer listigen Fratze verzogen, der geöffnete Mund zeigt kleine, spitze Zähne. Er scheint die Augen zu rollen.<br><br>Der Kopf ist umgeben von Ranken und Trauben, die eine Art Schild tragen, auf dem ein Spruch eingearbeitet ist.",
+
+      "quote": "1962 war ein neidisch Jahr<br>Bald nass, bald kalt es ständig war<br>im Herbst die Sonne schien lang und warm<br>Gott Bachus einen köstlichen Wein bekam",
+      "quote_explanation": "Trotz aller wetterbedingten Widrigkeiten hatte Bacchus ein Einsehen und belohnte den Winzer mit einem guten Wein. In der Antike galt Bacchus als Gott des Weinbaus, der Ekstase und der Fruchtbarkeit.",
+      "news": "Im Februar sterben bei der Sturmflut an der Nordseeküste über 300 Menschen. Sie gilt als eine der schwersten Flutkatastrophen Deutschlands. 100.000 Menschen werden obdachlos.",
+      "news_images": [
+        "media/newspapers/1962_welt.jpg",
+        "media/newspapers/1962_lokal.jpg"
+      ],
+      "circle_1_top": "30.8%",
+      "circle_1_left": "17.5%",
+      "circle_2_top": "7%",
+      "circle_2_left": "13%",
+      "circle_3_top": "24%",
+      "circle_3_left": "24.5%"
+    },
+    {
+      "year": "1962-1963",
+      "image": "media/barrels/62-63.png",
+      "description": "Dargestellt ist ein Rebstock im Winter, ohne Blätter und Trauben. Er wächst aus dem gefrorenen, mit Rissen durchzogenen Boden.<br><br>Die verschlungenen Ranken ähneln einem Jugendstilornament, dessen Mitte der Sinnspruch einnimmt.<br><br>Von oben bläst der Eiswind seinen kalten Atem über die dürren Triebe, die voller Eiszapfen hängen.<br><br>Im bodennahen Geäst hocken zwei kleine Hasen. Am unteren rechten Rand ist zu lesen: Ausgeführt von J. Meier Ingelh. <sup>a</sup>/Rh.",
+      "quote": "1962-63 brachte viel Schnee und Eis<br>Von November bis März waren die Weinberge weiss<br>Viele Reben blieben ohne Leben<br>Was wird es da wohl geben??",
+      "quote_explanation": "Dies ist der einzige Fassboden, auf dem sich einer der Bildschnitzer verewigt hat. Es handelt sich um den Mainzer Bildhauer Johann Gottfried Meier, der jedes Jahr in das Weingut kam, um das Jahrgangsfass zu schnitzen. Johann Meier hat die ersten sieben Fässer der Sammlung von 1954 bis 1963 gestaltet.",
+      "news": "Der über sieben Jahre dauernde Algerienkrieg endet 1962 mit der Unabhängigkeit Algeriens von Frankreich.",
+      "news_images": [
+        "media/newspapers/1963_welt.jpg",
+        "media/newspapers/1963_lokal.jpg"
+      ],
+      "circle_1_top": "30.8%",
+      "circle_1_left": "15%",
+      "circle_2_top": "12.3%",
+      "circle_2_left": "12.3%",
+      "circle_3_top": "17.8%",
+      "circle_3_left": "23.5%"
+    },
+    {
+      "year": "1963",
+      "image": "media/barrels/63.png",
+      "description": "Ganz oben lugt die Sonne hervor. Ihre langen Strahlen fallen auf ein dichtes Gespinst aus Weinranken und Trauben.<br><br>Der grimmig dreinschauende Bacchus mit Beeren anstelle von Haaren trägt auf seinem Kopf einen Holzbottich, der randvoll mit Trauben gefüllt ist.<br><br>Zwischen den Metallbändern ist ein Spruch eingearbeitet. In dem Gewirr der Reben lassen sich weitere maskenartige Gesichter entdecken.",
+      "quote": "Trotz Schnee und Eis<br>brachte 1963 viel Wein<br>rot und weiss",
+      "quote_explanation": "Gleich drei Jahrgangsfässer hintereinander vermitteln in ihren Sprüchen die Sorge um das Klima als zentrales Thema des Wein-baus. Die Jahre 1962 und 1963 waren ungewöhnlich nass und kalt und es gab viel Schnee und Eis. Im Winter 1963 fror der Rhein zum letzten Mal zu.",
+      "news": "Am 22. November wird der US-amerikanische Präsident John F. Kennedy in Dallas erschossen.<br><br>In Ingelheim wird im Juni das neue Sportlerheim mit Gastraum im Blumengarten eröffnet, das mit zwei Duschanlagen und Zentralheizung für damalige Verhältnisse sehr modern ausgestattet war.",
+      "news_images": [
+        "media/newspapers/1963_welt.jpg",
+        "media/newspapers/1963_lokal.jpg"
+      ],
+      "circle_1_top": "7%",
+      "circle_1_left": "15%",
+      "circle_2_top": "23%",
+      "circle_2_left": "17.3%",
+      "circle_3_top": "28.5%",
+      "circle_3_left": "22%"
+    },
+    {
+      "year": "1964",
+      "image": "media/barrels/64.png",
+      "description": "In der linken Hälfte steht der Winzer in traditioneller Kleidung mit Kiepe, Hut und Stecken. Er schaut den Betrachter frontal an.<br><br>Ringsherum rahmen Weinranken den Fassboden, rechts oben schaut die Sonne hervor.<br><br>Ein großer Weinkelch illustriert den Spruch. Die Schrift auf diesem Fass erscheint ungewöhnlich gradlinig und sachlich.",
+      "quote": "1964 war ein Sonnenjahr<br>die Reben blüten wunderbar<br>die Trauben waren kerngesund<br>der Wein ist köstlich in aller Mund",
+      "quote_explanation": "Die Gestaltung des Fasses wirkt viel moderner als die vorangegangen. Für den neuen Stil ist Otto Weyer verantwortlich, der die beiden Jahrgänge 1964 und 1965 geschnitzt hat.<br>Seine Arbeit entspricht eher dem Zeitgeschmack der 1960er-Jahren, was der Familie Niedecken nicht so gut gefiel, denn nach diesen zwei Fässern beschäftigte sie wieder einen traditionelleren Bildschnitzer.",
+      "news": "Martin Luther King wird mit dem Friedensnobelpreis ausgezeichnet. Im Mai stirbt Indiens erster Premierminister Jawaharlal Nehru.<br>In Ingelheim entsteht der neue Stadtteil West mit der Hundert-Morgen-Siedlung für Zuwanderer aus den verlorenen Ostgebieten. Die evangelische Gustav-Adolf-Gemeinde weiht ihre Versöhnungskirche in der Dietrich-Bonhoeffer-Siedlung im Stadtteil West ein.",
+      "news_images": [
+        "media/newspapers/1964_welt.jpg",
+        "media/newspapers/1964_lokal.jpg"
+      ],
+      "circle_1_top": "23%",
+      "circle_1_left": "10%",
+      "circle_2_top": "15%",
+      "circle_2_left": "18%",
+      "circle_3_top": "25%",
+      "circle_3_left": "24%"
+    },
+    {
+      "year": "1965",
+      "image": "media/barrels/65.png",
+      "description": "Der Fassboden wird dominiert von einer großen Wolke mit rundem Gesicht. Oberhalb zeigt sich bereits die strahlende Sonne.<br><br>Die Regentropfen, die aus der Wolke fallen, illustrieren den Sinnspruch. Eine Girlande aus Blättern und Trauben schlängelt sich zwischen den zwei Spruchbändern hindurch.",
+      "quote": "Die Sonne soll den Trauben lachen<br>was soll man machen wenn der Himmel weint<br>Der Kellermeister pflegte den Rebensaft im Fass<br>sodass ein guter Tropfen kam ins Glas",
+      "quote_explanation": "Der Sinnspruch verweist auf die wichtige Rolle des Kellermeisters/der Kellermeisterin beim Ausbau des Weins. Er/sie ist verantwortlich für die Behandlung der Trauben bis hin zum verkaufsfertigen Wein. Seine/ihre Expertise und Erfahrung sind entscheidend für die Qualität des Weins.",
+      "news": "Queen Elisabeth II und Prinz Philipp besuchen erstmals Deutschland. In Rheinland-Pfalz werden sie von Minister-präsident Peter Altmeier empfangen. Die Queen schickt tags darauf ein Dankestelegramm.",
+      "news_images": ["media/newspapers/1965_welt.jpg", ""],
+      "circle_1_top": "13.5%",
+      "circle_1_left": "14.5%",
+      "circle_2_top": "37.3%",
+      "circle_2_left": "17.3%",
+      "circle_3_top": "23.5%",
+      "circle_3_left": "27%"
+    },
+    {
+      "year": "1966",
+      "image": "media/barrels/66.png",
+      "description": "Im Zentrum des Fasses steht der Winzer. Er ist als Halbfigur von der Seite dargestellt, trägt Hut und Hemd entsprechend der Mode der 1960er-Jahre.<br>In der einen Hand hält er eine Rebschere und eine Traube, mit der anderen führt er eine Beere zum Mund.<br><br>Die Szene zeigt den Winzer im August. Kurz vor der Ernte schneidet er noch einmal Laub und prüft den Reifegrad der Trauben.",
+      "quote": "Drei Ding sinds die geben Wein<br>die Erde die Reben der Sonnenschein<br>doch wenn die Arbeit des Winzers nicht waer<br>blieb selbst der koestlichste Becher leer",
+      "quote_explanation": "Die zweizeilige Umschrift preist die Arbeit des Winzers/der Winzerin. Er/sie unterstützt durch die Bearbeitung des Bodens, die Reberziehung, das Düngen, die Schädlings- und Pilzbekämpfung die Qualität der Trauben.<br>Dieses Fass ist das erste von 14 Fässern, deren Böden der Malermeister Rudi Lorenz für das Weingut geschnitzt hat. Sein Stil ist detailreich und wirkt besonders lebensecht.",
+      "news": "Im März findet Europas Hochzeit des Jahres in Amsterdam statt: Die niederländische Kronprinzessin Beatrix heiratet den deutschen Diplomaten Claus von Amsberg. In China kommt Mao Zedong an die Macht.<br>In Ingelheim wird nach der Eröffnung des Freibades nun auch das Hallenbad im Blumengarten eröffnet. Damit verfügte die Stadt über eine der modernsten Schwimmbadanlagen des Landes.",
+      "news_images": [
+        "media/newspapers/1966_welt.jpg",
+        "media/newspapers/1966_lokal.jpg"
+      ],
+      "circle_1_top": "28%",
+      "circle_1_left": "15%",
+      "circle_2_top": "5.5%",
+      "circle_2_left": "17.8%",
+      "circle_3_top": "34%",
+      "circle_3_left": "25.5%"
+    },
+    {
+      "year": "1967",
+      "image": "media/barrels/67.png",
+      "description": "Wolken, Regen und Sonne im oberen Teil illustrieren, dass das Jahr feucht und warm war. Das ideale Klima zur Ausbreitung von Botrytis.<br><br>Sehr detailgetreu geschnitzt ist der Traktor. Es handelt sich um einen 40 Jahre alten, roten Ferguson, den der Winzer lenkt.<br><br>Hinter ihm ist ein Kanister zu sehen. Mit einer großen Wolke Spritzbrühe versucht er, den Pilzbefall in der Weinlage Schlossberg zu bekämpfen.<br><br>Im Hintergrund ragt der Bismarckturm auf.",
+      "quote": "Viel Spritzen musste man für wahr<br>1967 im Botrytisjahr",
+      "quote_explanation": "Als Rebkrankheiten bezeichnet man alle Schäden, die durch Pilz-, Viren- oder Bakterienbefall hervorgerufen werden und die Wachstum und Ertrag der Reben beeinträchtigen. Botrytis (Edelfäule) kann, je nachdem in welcher Jahreszeit sie auftritt, zur gefährlichen Rohfäule oder Sauerfäule werden, die die unreifen Trauben ruiniert.",
+      "news": "Bei einer Demonstration gegen den Schah-Besuch wird der Student Benno Ohnesorg erschossen. Israel besetzt im Sechs-Tage-Krieg Ost-Jerusalem, die Golanhöhen und das Westjordanland. Das Monterey-Pop-Festival in Kalifornien bildet den Auftakt zur sogenannten Hippie-Kultur.",
+      "news_images": ["media/newspapers/1967_welt.jpg", ""],
+      "circle_1_top": "10%",
+      "circle_1_left": "18%",
+      "circle_2_top": "20%",
+      "circle_2_left": "21.5%",
+      "circle_3_top": "16%",
+      "circle_3_left": "27.8%"
+    },
+    {
+      "year": "1968",
+      "image": "media/barrels/68.png",
+      "description": "Drei Herren in Kostümen des 17. Jahrhunderts haben sich um ein Fass versammelt. Sie tragen breitkrempige Hüte mit Federn und erinnern an die drei Musketiere.<br><br>Eine Kerze wirft einen strahlenförmigen Schein auf die gemütliche Szenerie. Die Männer lassen es sich mit einem Pokal Wein in der Hand sichtlich gut gehen. Es wird kräftig nachgeschenkt.",
+      "quote": "Für Sorgen sorgt das liebe Leben<br>und Sorgenbrecher sind die Reben",
+      "quote_explanation": "Der ausgewählte Spruch scheint die weltweiten politischen Unruhen in diesem Jahr zu kommentieren. Man flüchtet nur zu gern in vergangene Zeiten.<br>Der Bildschnitzer Rudi Lorenz war auch ein talentierter Maler. Er hatte eine Vorliebe für historische Wirtshausszenen. Als Vorlage für seine Gemälde und Zeichnungen diente ihm die historisierende Malerei des 19. Jahrhunderts.",
+      "news": "Das Jahr ist geprägt durch viele politischen Unruhen: Martin Luther King wird ermordet, der Studentenführer Rudi Dutschke bei einem Attentat schwer verletzt und der Prager Frühling niedergeschlagen. Der Aufklärungsfilm <i>Das Wunder der Liebe</i> von Oswalt Kolle kommt in die deutschen Kinos.<br>Im Ortsteil Frei-Weinheim nimmt die Autofähre nach Oestrich-Winkel ihren Betrieb auf und der Jugendclub <i>Die Funsel</i> bekommt einen eigenen Beatkeller in der Binger Straße.",
+      "news_images": [
+        "media/newspapers/1968_welt.jpg",
+        "media/newspapers/1968_lokal.jpg"
+      ],
+      "circle_1_top": "28%",
+      "circle_1_left": "17%",
+      "circle_2_top": "12.8%",
+      "circle_2_left": "17.2%",
+      "circle_3_top": "11.5%",
+      "circle_3_left": "27%"
+    },
+    {
+      "year": "1969",
+      "image": "media/barrels/69.png",
+      "description": "Die obere Hälfte des Fassbodens zeigt Neil Armstrong bei seinen ersten Schritten auf dem Mond.<br><br>Die Kraterlandschaft, der Raumanzug, das Sauerstoffgerät und die Raumsonde Apollo 11, alles ist detailgetreu wiedergegeben. Über allem erscheint die Erde als weit entfernter Planet.<br><br>Im starken Kontrast dazu zeigt der untere Teil die historische Burgkirche von Ober-Ingelheim hinter einer hübschen Weingirlande.",
+      "quote": "21.7.1969 landen Menschen erstmals auf dem Mond,<br>sie kehrten aber bald zurück,<br>denn gewachsen ist ein gutes Kirchenstück",
+      "quote_explanation": "Die Mondlandung wird hier selbstbewusst in den Zusammenhang mit der heimatlichen Weinlage Kirchenstück gebracht. Die Darstellung der Raumsonde und des Astronauten zeigt wieder einmal die besondere Fähigkeit von Rudi Lorenz, die Motive detailgetreu und lebensecht umzusetzen.",
+      "news": "11 Millionen Menschen weltweit verfolgen die Fernsehübertragung der ersten Mondlandung im Juli 1969.",
+      "news_images": ["media/newspapers/1969_welt.jpg", ""],
+      "circle_1_top": "16%",
+      "circle_1_left": "12.5%",
+      "circle_2_top": "19.5%",
+      "circle_2_left": "23%",
+      "circle_3_top": "28.2%",
+      "circle_3_left": "27.7%"
+    },
+    {
+      "year": "1970",
+      "image": "media/barrels/70.png",
+      "description": "Die Sonne richtet ihre Strahlen auf zwei Rebstöcke.<br><br>Auf der rechten Fasshälfte ist die Fruchtblüte im Juni dargestellt, bei der sich die aufrecht stehenden Blütenstände mit Fruchtwasser füllen.<br><br>Links gegenüber sind die dicken, reifen Beeren im Spätsommer zu sehen, die nun in ihrer schweren Fülle herabhängen.",
+      "quote": "Während der Blüte Sonnenschein<br>brachte sehr viel guten Wein",
+      "quote_explanation": "Das Jahrgangsfass 1970 wurde für den Ausbau von Rotwein genutzt. Das lässt sich an der roten Stirnseite des Fasses erkennen. Weißweinfässer werden mit grüner Farbe gekennzeichnet. Die 24 ovalen Fässer der Sammlung bestehen aus Eichenholz und haben ein Volumen von 1.800 Litern. Sie füllten die Höhe des Gewölbekellers im Weingut Kirchenstück optimal aus und passten gerade noch durch die Kelleröffnung.",
+      "news": "Mit einer spektakulären Aktion gelingt es Ulrike Meinhof und Gudrun Ensslin, Andreas Baader aus dem Gefängnis in Berlin zu befreien; die radikale Rote Armee Fraktion RAF formiert sich. Die Beatles trennen sich, und in den USA wird der Earth Day eingeführt, um auf die zunehmende Umweltverschmutzung aufmerksam zu machen.<br>Im Februar bedroht ein Jahrhunderthochwasser Frei-Weinheim. Der Deich kann nur mithilfe eines Hubschraubereinsatzes gehalten werden.",
+      "news_images": [
+        "media/newspapers/1970_welt.jpg",
+        "media/newspapers/1970_lokal.jpg"
+      ],
+      "circle_1_top": "25%",
+      "circle_1_left": "26%",
+      "circle_2_top": "9.5%",
+      "circle_2_left": "16.5%",
+      "circle_3_top": "18.5%",
+      "circle_3_left": "15%"
+    },
+    {
+      "year": "1971",
+      "image": "media/barrels/71.png",
+      "description": "Die Ingelheimer Weinberge mit dem Bismarckturm und die Hänge des Rheintals bilden das Hauptmotiv des Fasses.<br><br>Eine mit Trauben verzierte Banderole dient als Spruchband.<br><br>Darunter ist eine weitere Inschrift zu sehen, die den Pegelstand des Rheins dokumentiert.",
+      "quote": "kleiner Rhein großer Wein<br>Pegel 2,92 m Normal  84% Öchsle<br>1,55 m   1971   118 %",
+      "quote_explanation": "Die Bauernregel in Reimform bringt den niedrigen Pegelstand mit der Qualität der Weinernte in Verbindung. Solche Regeln beruhen auf jahrhundertelanger Beobachtung von Naturereignissen. Die Erfahrungen werden von Generation zu Generation weitergegeben.",
+      "news": "Die erste Auslandsreise eines japanischen Kaiserpaars überhaupt führt nach Deutschland, wo es unter anderem eine Rheinfahrt von Bingen nach Koblenz unternimmt. Der Rhein leidet unter der extremen Trockenheit. Bundeskanzler Willi Brandt erhält den Friedensnobelpreis. Großbritannien wird Mitglied der Europäischen Wirtschaftsgemeinschaft EWG. In Kanada gründen Umweltaktivisten Greenpeace.<br>In Ingelheim wird die Städtepartnerschaft mit Berlin-Kreuzberg offiziell besiegelt.",
+      "news_images": [
+        "media/newspapers/1971_welt.jpg",
+        "media/newspapers/1971_lokal.jpg"
+      ],
+      "circle_1_top": "20%",
+      "circle_1_left": "12.5%",
+      "circle_2_top": "26.5%",
+      "circle_2_left": "17.5%",
+      "circle_3_top": "35.5%",
+      "circle_3_left": "24.5%"
+    },
+    {
+      "year": "1972",
+      "image": "media/barrels/72.png",
+      "description": "Die beiden Zwiebeltürme der Marienkirche verweisen auf München als Austragungsort der Olympiade.<br><br>Zwischen den Türmen fehlt ein Stück, das der Schnitzer nachreichen wollte. Er hatte jedoch keine geeignete Vorlage für dieses Detail. Das kleine Bohrloch zur Befestigung zeigt: Es fehlt bis heute.<br><br>Die Olympischen Ringe dürfen nicht fehlen. Unterhalb des Spruchbands mischt sich Eichenlaub unter den Wein – ein Symbol für Standfestigkeit und Unsterblichkeit.",
+      "quote": "Olympiade München<br>Wenige Siege mittlerer Wein<br>moege es bald besser sein",
+      "quote_explanation": "Der Spruch zieht eine Parallele zwischen dem mäßigen Erfolg der deutschen Olympioniken und der Qualität dieses Weinjahrgangs. Das schreckliche Attentat im Olympischen Dorf findet keine Erwähnung. Allerdings klingt Hoffnung auf eine bessere Zukunft an.",
+      "news": "Am 5. September verübt eine palästinensische Terrororganisation einen Anschlag auf die israelische Olympia-Mannschaft in München. Die Geiselnahme endet mit der Ermordung aller elf israelischen Geiseln sowie dem Tod von fünf Geiselnehmern und eines Polizisten.<br>In der Volkshochschule von Ingelheim findet im Vorfeld ein kritisches Seminar zur Idee und Wirklichkeit der Olympischen Spiele statt, zu dem Sportsfreunde aus der ganzen Bundesrepublik anreisen. Groß-Winterheim wird eingemeindet.",
+      "news_images": [
+        "media/newspapers/1972_welt.jpg",
+        "media/newspapers/1972_lokal.jpg"
+      ],
+      "circle_1_top": "13%",
+      "circle_1_left": "15.5%",
+      "circle_2_top": "15.5%",
+      "circle_2_left": "22.5%",
+      "circle_3_top": "25%",
+      "circle_3_left": "6.7%"
+    },
+    {
+      "year": "1973",
+      "image": "media/barrels/73.png",
+      "description": "Im Mittelpunkt steht das mittelalterliche Uffhub-Tor. Es gibt den Blick frei auf die Burgkirche in Ober-Ingelheim und weitere Wahrzeichen.<br><br>Über dem Tor das Reichsadler-Wappen und der Bismarckturm. Ganz links ist die Saalkirche und rechts der mittelalterliche Wehrturm am Neuweg zu erkennen.<br><br>Der Winzer mit Kiepe auf dem Rücken bringt seine Trauben heim in das Kelterhaus des Weinguts Kirchenstück.",
+      "quote": "Sonne Wind und wenig Regen<br>keine Krankheit an den Reben<br>guter Wein war dann der Lohn<br>und man lange redt davon",
+      "quote_explanation": "1973 brachte demnach einen guten, gesunden Jahrgang. Seit 1925 bewirtschaftet die Familie Niedecken die begehrte Weinlage Kirchenstück oberhalb der Burgkirche. Eine Großlage von 4 Hektar, auf der verschiedene Rebsorten kultiviert werden: Spätburgunder, Cabernet Sauvignon, Riesling, Müller-Thurgau, Chardonnay, Morio-Muskat. Heute ist sie an das Weingut Dautermann verpachtet.",
+      "news": "Chiles Militär stürzt den Staatspräsidenten Salvator Allende. General Pinochet wird Chef der mörderischen Militärjunta. In New York werden die Zwillingstürme des World Trade Centers eröffnet.",
+      "news_images": ["media/newspapers/1973_welt.jpg", ""],
+      "circle_1_top": "18%",
+      "circle_1_left": "22%",
+      "circle_2_top": "14.4%",
+      "circle_2_left": "15%",
+      "circle_3_top": "37.5%",
+      "circle_3_left": "17%"
+    },
+    {
+      "year": "1974",
+      "image": "media/barrels/74.png",
+      "description": "Zwei altertümlich gekleidete Kellerarbeiter mit Schürzen sind mit der Sektproduktion beschäftigt.<br><br>Der vordere füllt Wein mit einem Krug in Flaschen, der hintere dreht die Flaschen im Rüttelpult.<br><br>Unten links ist eine fertig verkorkte Sektflasche zu sehen.",
+      "quote": "Sektweinjahr 1974<br>zur zweiten Gärung auf den Flaschen<br>war die Säure wie geschaffen<br>der Sekt schmeckt herzhaft und pikant<br>und erfreut uns allesamt",
+      "quote_explanation": "Bei der traditionellen Flaschengärung wird der Wein mit Hefe und einer Zuckerlösung versetzt, in Flaschen gefüllt und verschlossen. Die Hefe setzt sich durch die Schräglage des Rüttelpults im Flaschenhals ab. Beim Degorgieren wird der Flaschenhals gefroren, der Hefepfropf schießt durch Eigendruck heraus. Vor dem Wieder-verschließen wird die Flasche mit der sogenannten Dosage aufgefüllt.",
+      "news": "Mit Franz Beckenbauer und Gerd Müller werden die Deutschen im Juli Fußballweltmeister im eigenen Land.<br>In Ingelheim wird die A 60 fertiggestellt. Die Düsseldorfer Band Kraftwerk bringt ihr Studioalbum <i>Autobahn</i> heraus, das bis heute vor allem durch das Titellied bekannt ist.",
+      "news_images": [
+        "media/newspapers/1974_welt.jpg",
+        "media/newspapers/1974_lokal.jpg"
+      ],
+      "circle_1_top": "21.5%",
+      "circle_1_left": "14%",
+      "circle_2_top": "9.5%",
+      "circle_2_left": "22%",
+      "circle_3_top": "31%",
+      "circle_3_left": "28.5%"
+    },
+    {
+      "year": "1975",
+      "image": "media/barrels/75.png",
+      "description": "Der dargestellte Winzer ist historisch gekleidet.<br><br>Er trägt Stulpenstiefel, ein gegürtetes Hemd und einen Hut. Mit einer altmodischen Kiepe auf dem Rücken und einem Stock in der Hand geht er auf zwei liegende Weinfässer zu.<br><br>Der altertümliche Eindruck der Darstellung wird noch verstärkt durch das Tuch, das dekorativ an zwei Eisenringen befestigt ist und auf dem der Spruch zu lesen ist.",
+      "quote": "125 Jahre Familienbesitz 1850-1975<br>Zum Jubiläum schenkt ein<br>den guten 1975er Wein",
+      "quote_explanation": "Nicht selten befinden sich Weingüter über Jahrhunderte in Familienbesitz. Mit Stolz blickt man auf die eigene Geschichte zurück und gibt das Wissen des Winzerhandwerks an die nächste Generation weiter.",
+      "news": "Während der OPEC-Konferenz in Wien nimmt ein internationales Terrorkommando 62 Geiseln, darunter 11 Erdölminister. Der sowjetische Atomphysiker und Regimekritiker Sacharow erhält den Friedensnobelpreis. Seine Frau nimmt ihn stellvertretend in Oslo entgegen.",
+      "news_images": [
+        "media/newspapers/1975_welt.jpg",
+        "media/newspapers/1975_lokal.jpg"
+      ],
+      "circle_1_top": "26.5%",
+      "circle_1_left": "12.5%",
+      "circle_2_top": "16%",
+      "circle_2_left": "22.8%",
+      "circle_3_top": "19.2%",
+      "circle_3_left": "9.5%"
+    },
+    {
+      "year": "1976",
+      "image": "media/barrels/76.png",
+      "description": "Zwischen den einzelnen Strahlen einer Sonnenuhr listet der Fassboden die zehn besten Jahrgänge im Kirchenstück auf<br>Dies sind die Jahre 1911, 1921, 1937, 1945, 1947, 1949, 1953, 1959, 1964, 1971.<br><br>Das Jahr 1976 setzt diese Reihe fort, seine Ziffern sind übereinander auf dem mittleren Strahl der Sonne platziert.<br><br>Sie trägt einen Kopfschmuck aus Trauben und hält den Stab der Sonnenuhr im lachenden Mund.",
+      "quote": "Im Kirchenstück die Sonnenuhr<br>zeigt nicht die heit'ren Stunden nur<br>nein auch der Sonnenjahrgangs-Wein<br>soll durch sie verewigt sein",
+      "quote_explanation": "Dieses Fass stellt eine Art historische Wetteraufzeichnung dar, die mit dem Jahr 1911 beginnt. Das war das Jahr des Halleyschen Kometen, daher nannte man diesen Jahrgang Kometenwein. Das Fass ist dem Thema Sonne gewidmet, ebenso wie die Fässer von 1959, 1966 und 1971.",
+      "news": "Bei einem Erdbeben in China sterben ca. 800.000 Menschen. Es gilt als größte Naturkatastrophe des 20. Jahrhunderts. Im selben Jahr stirbt der kommunistische Machthaber Mao Zedong. Erich Honecker wird Regierungschef der DDR.<br>In Ingelheim tritt Anno Vey (CDU) das Amt des Oberbürgermeisters an, das er 20 Jahre lang bekleiden wird.",
+      "news_images": [
+        "media/newspapers/1976_welt.jpg",
+        "media/newspapers/1976_lokal.jpg"
+      ],
+      "circle_1_top": "9%",
+      "circle_1_left": "14.5%",
+      "circle_2_top": "32.8%",
+      "circle_2_left": "17.5%",
+      "circle_3_top": "28%",
+      "circle_3_left": "28%"
+    },
+    {
+      "year": "1977-1980",
+      "image": "media/barrels/77-80.png",
+      "description": "Ein mittelalterlich gekleideter Weinbauer in Lederwams und Kniebundhose kippt seine Butt aus, die offensichtlich leer ist.<br>Die zwei Rebstöcke neben ihm tragen keine Trauben.<br><br>Eine breite Banderole, kunstvoll an den Enden aufgerollt, nimmt den Sinnspruch auf.",
+      "quote": "Die Jahre 77-80 waren schwach<br>für den Winzer ne traurige Sach<br>Frost und Regen schadeten sehr<br>ließen manches Weinfaß leer",
+      "quote_explanation": "Diese vier Jahrgänge brachten aufgrund der schlechten Wetterbedingungen wenig Ertrag. Aus Kostengründen verzichtete man auf die Anschaffung neuer Fässer. Zumal die Herstellung eines Eichenholzfasses zwischen 1.500 und 2.000 DM kostete und die aufwendigen Schnitzarbeiten noch einmal dieselbe Summe.",
+      "news": "1977 trauert die Welt um Elvis Presley. 1978 folgen drei Päpste aufeinander: Paul VI., Johannes Paul I. und Johannes Paul II. 1979 wird Margret Thatcher als erste Frau Premierministerin Großbritanniens. Elton John gibt als erster Popmusiker aus dem Westen Konzerte in Moskau und Leningrad.<br>In Ingelheim entsteht 1977 das Weiterbildungszentrum WBZ. Der Wochenmarkt erhält einen neuen Standort vor der alten Markthalle gegenüber dem Bahnhof.",
+      "news_images": [
+        "media/newspapers/1977_welt.jpg",
+        "media/newspapers/1977_lokal.jpg"
+      ],
+      "circle_1_top": "15%",
+      "circle_1_left": "17%",
+      "circle_2_top": "23.3%",
+      "circle_2_left": "14.7%",
+      "circle_3_top": "33%",
+      "circle_3_left": "28%"
+    },
+    {
+      "year": "1981",
+      "image": "media/barrels/81.png",
+      "description": "Dargestellt ist ein Küfer bei der Arbeit an einem Holzfass mit der Aufschrift 1981.<br><br>Er steht auf einem Schemel, trägt Lederschürze und Schirmmütze und schlägt mit zwei Hämmern den obersten Reifen fest.<br><br>Mit diesem Fassboden wird das Aussterben des Küferhandwerks thematisiert.",
+      "quote": "Ein edler Wein gerät nur gut<br>wenn er im echten Holzfaß ruht<br>doch leider fällt der Nachschub schwer<br>hier gibt es keinen Küfer mehr",
+      "quote_explanation": "Die Ingelheimer Küferwerkstatt von Albert Preßler in der Turnierstraße existierte über 50 Jahre und lieferte die Fässer für das Weingut. Sein Sohn Friedrich Wilhelm Preßler musste den Betrieb 1975 krankheitsbedingt einstellen. Damit starb das Küferhandwerk in Ingelheim aus.",
+      "news": "Ermordung des ägyptischen Präsidenten Anwar as-Sadat. Traumhochzeit im britischen Königshaus: Prinz Charles heiratet Lady Diana. In den USA wird erstmals über die neue Immunschwäche AIDS berichtet.",
+      "news_images": ["media/newspapers/1981_welt.jpg", ""],
+      "circle_1_top": "15%",
+      "circle_1_left": "21.3%",
+      "circle_2_top": "26%",
+      "circle_2_left": "26.5%",
+      "circle_3_top": "26%",
+      "circle_3_left": "5%"
+    },
+    {
+      "year": "1982-1983",
+      "image": "media/barrels/82-83.png",
+      "description": "In einem von Weinreben umrankten Rundbogenfenster prosten sich die Weingötter zu: der römische Bacchus und der griechische Dionysos. Beide tragen antike Gewänder, Tunika und Toga.<br><br>Zwischen ihnen steht eine mit Trauben gefüllte Kiepe.<br><br>Auf der Brüstung sind in Form einer lateinischen Inschrift die Namen der beiden Gottheiten genannt.",
+      "quote": "Große Ernten kamen ins Haus<br>Frucht und Guete zeichnen sie aus",
+      "quote_explanation": "1981 übernimmt Heinz Niedecken die Führung des Weinguts von seinem Vater Martin. Das Fass 1982–83 ist das letzte, das er in Auftrag gibt. Bis zur Aufgabe des Weinguts 2011 werden alle 24 Fässer der hier gezeigten Sammlung regelmäßig genutzt. Um das Schrumpfen des Holzes zu verhindern, müssen sie immer nass stehen. Die optimale Luftfeuchtigkeit im Keller liegt bei 70 %. Unter diesen Bedingungen kann ein Holzfass mehrere Jahrzehnte genutzt werden.",
+      "news": "Helmut Schmidt (SPD) verliert 1982 nach einem Misstrauensvotum sein Amt als Bundeskanzler, Nachfolger wird Helmut Kohl (CDU). Nicole gewinnt mit Ein bisschen Frieden den 27. Grandprix Eurovision. Romy Schneider und Grace Kelly sterben unerwartet.<br>In Ingelheim werden im Oktober 1982 das Neue Rathaus und die Geschäfte auf dem Neuen Markt eingeweiht.",
+      "news_images": [
+        "media/newspapers/1982_welt.jpg",
+        "media/newspapers/1982_lokal.jpg"
+      ],
+      "circle_1_top": "20%",
+      "circle_1_left": "18%",
+      "circle_2_top": "9.2%",
+      "circle_2_left": "12.5%",
+      "circle_3_top": "34%",
+      "circle_3_left": "26.8%"
+    }
+  ]
+}

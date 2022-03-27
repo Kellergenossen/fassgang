@@ -1,0 +1,26 @@
+@font-face {
+  font-family: BrownStd;
+  font-weight: normal;
+  src: url("./media/fonts/BrownStdRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: BrownStd;
+  font-weight: bold;
+  src: url("./media/fonts/BrownStdBold.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  font-family: BrownStd, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black !important;
+  color: #bcc1b2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

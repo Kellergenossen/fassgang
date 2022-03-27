@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.rotatedChevron {
+  transform: rotate(180deg);
+}
+
+.pulsating-circle {
+  background: #bcc1b2;
+  border-radius: 50%;
+  height: 3.328vh;
+  width: 3.328vh;
+  box-shadow: 0 0 0 0 rgba(188, 193, 178, 1);
+  position: fixed;
+  z-index: 2;
+  animation: pulse 2s infinite;
+  animation-delay: 1s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(188, 193, 178, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 20px rgba(188, 193, 178, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(188, 193, 178, 0);
+  }
+}
