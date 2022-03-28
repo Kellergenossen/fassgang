@@ -93,7 +93,7 @@ function start(jsonObj) {
   }
 
   // first touchpoint = barrel description in main-area
-  circle1.addEventListener("click", function addText() {
+  circle1.addEventListener("mousedown", function addText() {
     circle_clicked = 1;
 
     circle1.style.animation = "none";
@@ -114,7 +114,7 @@ function start(jsonObj) {
     year.style.display = "none";
   });
   // second touchpoint = barrel news
-  circle2.addEventListener("click", function addText() {
+  circle2.addEventListener("mousedown", function addText() {
     circle_clicked = 2;
 
     circle2.style.animation = "none";
@@ -145,7 +145,7 @@ function start(jsonObj) {
   });
 
   // third touchpoint = barrel quote
-  circle3.addEventListener("click", function addText() {
+  circle3.addEventListener("mousedown", function addText() {
     circle_clicked = 3;
 
     circle3.style.animation = "none";
@@ -167,7 +167,7 @@ function start(jsonObj) {
     year.style.display = "none";
   });
   // logo = back to startscreen
-  logo.addEventListener("click", function startscreen() {
+  logo.addEventListener("mousedown", function startscreen() {
     contentbox.style.display = "none";
     carousel.style.display = "none";
     exhibitname.style.display = "block";
