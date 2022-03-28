@@ -8,7 +8,7 @@
       "description": "Eine lachende Sonne schickt ihre Strahlen auf ein Meer aus Reben.<br><br>Im Vordergrund ist ein Pferdegespann zu sehen, das ein Fass geladen hat. Daneben sind ein Mann und eine Frau bei der Weinlese.<br><br>Den unteren Teil schmücken zwei aufwendig gestaltete romanische Rundbögen. Unter dem linken Bogen ist ein Weinkeller dargestellt, in dem Mönch und Kellermeister eine Weinprobe abhalten, unter dem rechten eine Wirtshausszene.",
       "quote": "Die Sonne strahlte, die Rebe lachte<br>1959 edel Wein brachte!",
       "quote_explanation": "1959 war ein Jahrhundertjahrgang in Deutschland. Nach einem milden Frühling und einem extrem sonnigen Sommer erreichten die Trauben einen außergewöhnlich hohen Reifegrad. Fast die Hälfte der Erntemenge war für die höchsten Qualitätsstufen geeignet.",
-      "news": "Fidel Castro kommt in Kuba an die Macht. Die erste Barbiepuppe der Firma Mattel erscheint auf dem amerikanischen Markt.<br><br>Daheim ereignet sich auf der Strecke Frankfurt–Paris kurz vor Gau-Algesheim ein schweres Zugunglück, bei dem ein D-Zug entgleist. Im Herbst finden zum ersten Mal die <i>Internationalen Tage</i> statt. Dr. Ernst Boehringer beauftragt den Schweizer Dr. François Lachenal mit der Gründung eines Kulturfestivals.",
+      "news": "Fidel Castro kommt in Kuba an die Macht. Die erste Barbiepuppe der Firma Mattel erscheint auf dem amerikanischen Markt.<br>Daheim ereignet sich auf der Strecke Frankfurt–Paris kurz vor Gau-Algesheim ein schweres Zugunglück, bei dem ein D-Zug entgleist. Im Herbst finden zum ersten Mal die <i>Internationalen Tage</i> statt. Dr. Ernst Boehringer beauftragt den Schweizer Dr. François Lachenal mit der Gründung eines Kulturfestivals.",
       "news_images": [
         "media/newspapers/1959_welt.jpg",
         "media/newspapers/1959_lokal.jpg"
@@ -44,7 +44,7 @@
       "description": "Die gesamte Fläche nimmt ein Rebstock ein, an dessen wild verschlungenen Trieben nur ein paar verdorrte Blätter hängen.<br><br>In den Zwischenräumen tummeln sich zahlreiche Tiere: Mäuse, Schnecken, Käfer, Frösche, Schmetterlinge und Vögel, die es allesamt auf die reifen Trauben abgesehen haben.<br><br>Der Winzer steht mit der Spritze auf dem Rücken mittendrin und versucht das Übel abzuwenden.",
       "quote": "Mäuse und Schädlinge gross und klein<br>die zerstörten 1961 sehr viel Wein",
       "quote_explanation": "Schädlinge können ganze Ernten ruinieren oder den Ertrag empfindlich verringern wie 1961 geschehen.<br>Die Fässer der Sammlung geben unter anderem Auskunft über die Bedingungen des jeweiligen Weinjahrs und stellen damit eine Art Chronik des Weinguts Kirchenstück dar.",
-      "news": "Im April 1961 fliegt der Russe Juri Gagarin als erster Mensch ins Weltall. Im August beginnt der Mauerbau in Berlin. Die Antibabypille kommt in Deutschland auf den Markt.",
+      "news": "Im April 1961 fliegt der Russe Juri Gagarin als erster Mensch ins Weltall. Im August beginnt der Mauerbau in Berlin. Die Antibabypille kommt in Deutschland auf den Markt.<br>In Ingelheim werden in einem Modellversuch Kunststoffnetze erprobt, um Rebanlagen vor Staren zu schützen. Die Volkshochschule unternimmt eine Exkursion nach England.",
       "news_images": [
         "media/newspapers/1961_welt.jpg",
         "media/newspapers/1961_lokal.jpg"
@@ -63,7 +63,7 @@
 
       "quote": "1962 war ein neidisch Jahr<br>Bald nass, bald kalt es ständig war<br>im Herbst die Sonne schien lang und warm<br>Gott Bachus einen köstlichen Wein bekam",
       "quote_explanation": "Trotz aller wetterbedingten Widrigkeiten hatte Bacchus ein Einsehen und belohnte den Winzer mit einem guten Wein. In der Antike galt Bacchus als Gott des Weinbaus, der Ekstase und der Fruchtbarkeit.",
-      "news": "Im Februar sterben bei der Sturmflut an der Nordseeküste über 300 Menschen. Sie gilt als eine der schwersten Flutkatastrophen Deutschlands. 100.000 Menschen werden obdachlos.",
+      "news": "Im Februar sterben bei der Sturmflut in Hamburg über 300 Menschen. Sie gilt als eine der schwersten Flutkatastrophen Deutschlands. 100.000 Menschen werden obdachlos.<br>In Ingelheim entsteht auf dem ehemaligen Galgenbuckel eine neue Wohnsiedlung an der Rheinstraße.",
       "news_images": [
         "media/newspapers/1962_welt.jpg",
         "media/newspapers/1962_lokal.jpg"
@@ -82,10 +82,7 @@
       "quote": "1962-63 brachte viel Schnee und Eis<br>Von November bis März waren die Weinberge weiss<br>Viele Reben blieben ohne Leben<br>Was wird es da wohl geben??",
       "quote_explanation": "Dies ist der einzige Fassboden, auf dem sich einer der Bildschnitzer verewigt hat. Es handelt sich um den Mainzer Bildhauer Johann Gottfried Meier, der jedes Jahr in das Weingut kam, um das Jahrgangsfass zu schnitzen. Johann Meier hat die ersten sieben Fässer der Sammlung von 1954 bis 1963 gestaltet.",
       "news": "Der über sieben Jahre dauernde Algerienkrieg endet 1962 mit der Unabhängigkeit Algeriens von Frankreich.",
-      "news_images": [
-        "media/newspapers/1963_welt.jpg",
-        "media/newspapers/1963_lokal.jpg"
-      ],
+      "news_images": ["media/newspapers/1962-63_welt.jpg"],
       "circle_1_top": "30.8%",
       "circle_1_left": "15%",
       "circle_2_top": "12.3%",
@@ -99,7 +96,7 @@
       "description": "Ganz oben lugt die Sonne hervor. Ihre langen Strahlen fallen auf ein dichtes Gespinst aus Weinranken und Trauben.<br><br>Der grimmig dreinschauende Bacchus mit Beeren anstelle von Haaren trägt auf seinem Kopf einen Holzbottich, der randvoll mit Trauben gefüllt ist.<br><br>Zwischen den Metallbändern ist ein Spruch eingearbeitet. In dem Gewirr der Reben lassen sich weitere maskenartige Gesichter entdecken.",
       "quote": "Trotz Schnee und Eis<br>brachte 1963 viel Wein<br>rot und weiss",
       "quote_explanation": "Gleich drei Jahrgangsfässer hintereinander vermitteln in ihren Sprüchen die Sorge um das Klima als zentrales Thema des Wein-baus. Die Jahre 1962 und 1963 waren ungewöhnlich nass und kalt und es gab viel Schnee und Eis. Im Winter 1963 fror der Rhein zum letzten Mal zu.",
-      "news": "Am 22. November wird der US-amerikanische Präsident John F. Kennedy in Dallas erschossen.<br><br>In Ingelheim wird im Juni das neue Sportlerheim mit Gastraum im Blumengarten eröffnet, das mit zwei Duschanlagen und Zentralheizung für damalige Verhältnisse sehr modern ausgestattet war.",
+      "news": "Am 22. November wird der US-amerikanische Präsident John F. Kennedy in Dallas erschossen.<br>In Ingelheim wird im Juni das neue Sportlerheim mit Gastraum im Blumengarten eröffnet, das mit zwei Duschanlagen und Zentralheizung für damalige Verhältnisse sehr modern ausgestattet war.",
       "news_images": [
         "media/newspapers/1963_welt.jpg",
         "media/newspapers/1963_lokal.jpg"
@@ -201,8 +198,11 @@
       "description": "Die obere Hälfte des Fassbodens zeigt Neil Armstrong bei seinen ersten Schritten auf dem Mond.<br><br>Die Kraterlandschaft, der Raumanzug, das Sauerstoffgerät und die Raumsonde Apollo 11, alles ist detailgetreu wiedergegeben. Über allem erscheint die Erde als weit entfernter Planet.<br><br>Im starken Kontrast dazu zeigt der untere Teil die historische Burgkirche von Ober-Ingelheim hinter einer hübschen Weingirlande.",
       "quote": "21.7.1969 landen Menschen erstmals auf dem Mond,<br>sie kehrten aber bald zurück,<br>denn gewachsen ist ein gutes Kirchenstück",
       "quote_explanation": "Die Mondlandung wird hier selbstbewusst in den Zusammenhang mit der heimatlichen Weinlage Kirchenstück gebracht. Die Darstellung der Raumsonde und des Astronauten zeigt wieder einmal die besondere Fähigkeit von Rudi Lorenz, die Motive detailgetreu und lebensecht umzusetzen.",
-      "news": "11 Millionen Menschen weltweit verfolgen die Fernsehübertragung der ersten Mondlandung im Juli 1969.",
-      "news_images": ["media/newspapers/1969_welt.jpg", ""],
+      "news": "11 Millionen Menschen weltweit verfolgen die Fernsehübertragung der ersten Mondlandung im Juli 1969.<br>Der Grabungsbericht zur Kaiser Pfalz in Ingelheim ergibt neue Erkenntnisse: Die karolingische Aula Regia war farbig ausgemalt.",
+      "news_images": [
+        "media/newspapers/1969_welt.jpg",
+        "media/newspapers/1969_lokal.jpg"
+      ],
       "circle_1_top": "16%",
       "circle_1_left": "12.5%",
       "circle_2_top": "19.5%",
@@ -270,8 +270,11 @@
       "description": "Im Mittelpunkt steht das mittelalterliche Uffhub-Tor. Es gibt den Blick frei auf die Burgkirche in Ober-Ingelheim und weitere Wahrzeichen.<br><br>Über dem Tor das Reichsadler-Wappen und der Bismarckturm. Ganz links ist die Saalkirche und rechts der mittelalterliche Wehrturm am Neuweg zu erkennen.<br><br>Der Winzer mit Kiepe auf dem Rücken bringt seine Trauben heim in das Kelterhaus des Weinguts Kirchenstück.",
       "quote": "Sonne Wind und wenig Regen<br>keine Krankheit an den Reben<br>guter Wein war dann der Lohn<br>und man lange redt davon",
       "quote_explanation": "1973 brachte demnach einen guten, gesunden Jahrgang. Seit 1925 bewirtschaftet die Familie Niedecken die begehrte Weinlage Kirchenstück oberhalb der Burgkirche. Eine Großlage von 4 Hektar, auf der verschiedene Rebsorten kultiviert werden: Spätburgunder, Cabernet Sauvignon, Riesling, Müller-Thurgau, Chardonnay, Morio-Muskat. Heute ist sie an das Weingut Dautermann verpachtet.",
-      "news": "Chiles Militär stürzt den Staatspräsidenten Salvator Allende. General Pinochet wird Chef der mörderischen Militärjunta. In New York werden die Zwillingstürme des World Trade Centers eröffnet.",
-      "news_images": ["media/newspapers/1973_welt.jpg", ""],
+      "news": "Chiles Militär stürzt den Staatspräsidenten Salvator Allende. General Pinochet wird Chef der mörderischen Militärjunta. In New York werden die Zwillingstürme des World Trade Centers  eröffnet.<br>Mitglieder des Obstbauvereins der holländischen Provinz Limburg besuchen das Ingelheimer Kirschanbaugebiet, das als eines der größten in Europa gilt.  ",
+      "news_images": [
+        "media/newspapers/1973_welt.jpg",
+        "media/newspapers/1973_lokal.jpg"
+      ],
       "circle_1_top": "18%",
       "circle_1_left": "22%",
       "circle_2_top": "14.4%",
@@ -303,7 +306,7 @@
       "description": "Der dargestellte Winzer ist historisch gekleidet.<br><br>Er trägt Stulpenstiefel, ein gegürtetes Hemd und einen Hut. Mit einer altmodischen Kiepe auf dem Rücken und einem Stock in der Hand geht er auf zwei liegende Weinfässer zu.<br><br>Der altertümliche Eindruck der Darstellung wird noch verstärkt durch das Tuch, das dekorativ an zwei Eisenringen befestigt ist und auf dem der Spruch zu lesen ist.",
       "quote": "125 Jahre Familienbesitz 1850-1975<br>Zum Jubiläum schenkt ein<br>den guten 1975er Wein",
       "quote_explanation": "Nicht selten befinden sich Weingüter über Jahrhunderte in Familienbesitz. Mit Stolz blickt man auf die eigene Geschichte zurück und gibt das Wissen des Winzerhandwerks an die nächste Generation weiter.",
-      "news": "Während der OPEC-Konferenz in Wien nimmt ein internationales Terrorkommando 62 Geiseln, darunter 11 Erdölminister. Der sowjetische Atomphysiker und Regimekritiker Sacharow erhält den Friedensnobelpreis. Seine Frau nimmt ihn stellvertretend in Oslo entgegen.",
+      "news": "Während der OPEC-Konferenz in Wien nimmt ein internationales Terrorkommando 62 Geiseln, darunter 11 Erdölminister. Der sowjetische Atomphysiker und Regimekritiker Sacharow erhält den Friedensnobelpreis. Seine Frau nimmt ihn stellvertretend in Oslo entgegen.<br>In Ingelheim wird gefeiert: Zur Einweihung des Bolz- und Spielplatz in der Hundert-Morgen-Siedlung findet eine große Grillparty statt, das Hafenfest veranstaltet ein Heißluftspektakel.",
       "news_images": [
         "media/newspapers/1975_welt.jpg",
         "media/newspapers/1975_lokal.jpg"
@@ -357,8 +360,11 @@
       "description": "Dargestellt ist ein Küfer bei der Arbeit an einem Holzfass mit der Aufschrift 1981.<br><br>Er steht auf einem Schemel, trägt Lederschürze und Schirmmütze und schlägt mit zwei Hämmern den obersten Reifen fest.<br><br>Mit diesem Fassboden wird das Aussterben des Küferhandwerks thematisiert.",
       "quote": "Ein edler Wein gerät nur gut<br>wenn er im echten Holzfaß ruht<br>doch leider fällt der Nachschub schwer<br>hier gibt es keinen Küfer mehr",
       "quote_explanation": "Die Ingelheimer Küferwerkstatt von Albert Preßler in der Turnierstraße existierte über 50 Jahre und lieferte die Fässer für das Weingut. Sein Sohn Friedrich Wilhelm Preßler musste den Betrieb 1975 krankheitsbedingt einstellen. Damit starb das Küferhandwerk in Ingelheim aus.",
-      "news": "Ermordung des ägyptischen Präsidenten Anwar as-Sadat. Traumhochzeit im britischen Königshaus: Prinz Charles heiratet Lady Diana. In den USA wird erstmals über die neue Immunschwäche AIDS berichtet.",
-      "news_images": ["media/newspapers/1981_welt.jpg", ""],
+      "news": "Ermordung des ägyptischen Präsidenten Anwar as-Sadat. Traumhochzeit im britischen Königshaus: Prinz Charles heiratet Lady Diana. In den USA wird erstmals über die neue Immunschwäche AIDS berichtet.<br>In Ingelheim findet die 20. Altglas-Straßensammlung der Arbeiterwohlfahrt statt. Damit ist man ganz weit vorn im Einsparen von Energie und Rohstoffen.",
+      "news_images": [
+        "media/newspapers/1981_welt.jpg",
+        "media/newspapers/1981_lokal.jpg"
+      ],
       "circle_1_top": "15%",
       "circle_1_left": "21.3%",
       "circle_2_top": "26%",
