@@ -59,11 +59,11 @@
     {
       "year": "&#160;\n1962\n&#160;",
       "image": "/media/barrels/62.png",
-      "description": "Der Kopf des beliebten römischen Wein-gottes Bacchus schmückt das zentrale Feld. Er hat einen langen, wallenden Bart und zwei Hörner auf der Stirn. Sein Gesicht ist zu einer listigen Fratze verzogen, der geöffnete Mund zeigt kleine, spitze Zähne. Er scheint die Augen zu rollen.<br><br>Der Kopf ist umgeben von Ranken und Trauben, die eine Art Schild tragen, auf dem ein Spruch eingearbeitet ist.",
+      "description": "Der Kopf des beliebten römischen Weingottes Bacchus schmückt das zentrale Feld. Er hat einen langen, wallenden Bart und zwei Hörner auf der Stirn. Sein Gesicht ist zu einer listigen Fratze verzogen, der geöffnete Mund zeigt kleine, spitze Zähne. Er scheint die Augen zu rollen.<br><br>Der Kopf ist umgeben von Ranken und Trauben, die eine Art Schild tragen, auf dem ein Spruch eingearbeitet ist.",
 
       "quote": "1962 war ein neidisch Jahr<br>Bald nass, bald kalt es ständig war<br>im Herbst die Sonne schien lang und warm<br>Gott Bachus einen köstlichen Wein bekam",
       "quote_explanation": "Trotz aller wetterbedingten Widrigkeiten hatte Bacchus ein Einsehen und belohnte den Winzer mit einem guten Wein. In der Antike galt Bacchus als Gott des Weinbaus, der Ekstase und der Fruchtbarkeit.",
-      "news": "Im Februar sterben bei der Sturmflut in Hamburg über 300 Menschen. Sie gilt als eine der schwersten Flutkatastrophen Deutschlands. 100.000 Menschen werden obdachlos.<br>In Ingelheim entsteht auf dem ehemaligen Galgenbuckel eine neue Wohnsiedlung an der Rheinstraße.",
+      "news": "Im Februar sterben bei der Sturmflut in Hamburg über 300 Menschen. Sie gilt als eine der schwersten Flutkatastrophen Deutschlands. 100.000 Menschen werden obdachlos.<br>In Ingelheim entsteht auf dem ehemaligen <i>Galgenbuckel</i> eine neue Wohnsiedlung an der Rheinstraße.",
       "news_images": [
         "media/newspapers/1962_welt.jpg",
         "media/newspapers/1962_lokal.jpg"
@@ -198,7 +198,7 @@
       "description": "Die obere Hälfte des Fassbodens zeigt Neil Armstrong bei seinen ersten Schritten auf dem Mond.<br><br>Die Kraterlandschaft, der Raumanzug, das Sauerstoffgerät und die Raumsonde Apollo 11, alles ist detailgetreu wiedergegeben. Über allem erscheint die Erde als weit entfernter Planet.<br><br>Im starken Kontrast dazu zeigt der untere Teil die historische Burgkirche von Ober-Ingelheim hinter einer hübschen Weingirlande.",
       "quote": "21.7.1969 landen Menschen erstmals auf dem Mond,<br>sie kehrten aber bald zurück,<br>denn gewachsen ist ein gutes Kirchenstück",
       "quote_explanation": "Die Mondlandung wird hier selbstbewusst in den Zusammenhang mit der heimatlichen Weinlage Kirchenstück gebracht. Die Darstellung der Raumsonde und des Astronauten zeigt wieder einmal die besondere Fähigkeit von Rudi Lorenz, die Motive detailgetreu und lebensecht umzusetzen.",
-      "news": "11 Millionen Menschen weltweit verfolgen die Fernsehübertragung der ersten Mondlandung im Juli 1969.<br>Der Grabungsbericht zur Kaiser Pfalz in Ingelheim ergibt neue Erkenntnisse: Die karolingische Aula Regia war farbig ausgemalt.",
+      "news": "11 Millionen Menschen weltweit verfolgen die Fernsehübertragung der ersten Mondlandung im Juli 1969.<br>Der Grabungsbericht zur Kaiser Pfalz in Ingelheim ergibt neue Erkenntnisse: Die karolingische <i>Aula</i> Regia war farbig ausgemalt.",
       "news_images": [
         "media/newspapers/1969_welt.jpg",
         "media/newspapers/1969_lokal.jpg"
@@ -270,7 +270,7 @@
       "description": "Im Mittelpunkt steht das mittelalterliche Uffhub-Tor. Es gibt den Blick frei auf die Burgkirche in Ober-Ingelheim und weitere Wahrzeichen.<br><br>Über dem Tor das Reichsadler-Wappen und der Bismarckturm. Ganz links ist die Saalkirche und rechts der mittelalterliche Wehrturm am Neuweg zu erkennen.<br><br>Der Winzer mit Kiepe auf dem Rücken bringt seine Trauben heim in das Kelterhaus des Weinguts Kirchenstück.",
       "quote": "Sonne Wind und wenig Regen<br>keine Krankheit an den Reben<br>guter Wein war dann der Lohn<br>und man lange redt davon",
       "quote_explanation": "1973 brachte demnach einen guten, gesunden Jahrgang. Seit 1925 bewirtschaftet die Familie Niedecken die begehrte Weinlage Kirchenstück oberhalb der Burgkirche. Eine Großlage von 4 Hektar, auf der verschiedene Rebsorten kultiviert werden: Spätburgunder, Cabernet Sauvignon, Riesling, Müller-Thurgau, Chardonnay, Morio-Muskat. Heute ist sie an das Weingut Dautermann verpachtet.",
-      "news": "Chiles Militär stürzt den Staatspräsidenten Salvator Allende. General Pinochet wird Chef der mörderischen Militärjunta. In New York werden die Zwillingstürme des World Trade Centers  eröffnet.<br>Mitglieder des Obstbauvereins der holländischen Provinz Limburg besuchen das Ingelheimer Kirschanbaugebiet, das als eines der größten in Europa gilt.  ",
+      "news": "Chiles Militär stürzt den Staatspräsidenten Salvator Allende. General Pinochet wird Chef der mörderischen Militärjunta. In New York werden die Zwillingstürme des World Trade Centers  eröffnet.<br>Mitglieder des Obstbauvereins der holländischen Provinz Limburg besuchen das Ingelheimer Kirschanbaugebiet, das als eines der größten in Europa gilt.",
       "news_images": [
         "media/newspapers/1973_welt.jpg",
         "media/newspapers/1973_lokal.jpg"
@@ -378,7 +378,7 @@
       "description": "In einem von Weinreben umrankten Rundbogenfenster prosten sich die Weingötter zu: der römische Bacchus und der griechische Dionysos. Beide tragen antike Gewänder, Tunika und Toga.<br><br>Zwischen ihnen steht eine mit Trauben gefüllte Kiepe.<br><br>Auf der Brüstung sind in Form einer lateinischen Inschrift die Namen der beiden Gottheiten genannt.",
       "quote": "Große Ernten kamen ins Haus<br>Frucht und Guete zeichnen sie aus",
       "quote_explanation": "1981 übernimmt Heinz Niedecken die Führung des Weinguts von seinem Vater Martin. Das Fass 1982–83 ist das letzte, das er in Auftrag gibt. Bis zur Aufgabe des Weinguts 2011 werden alle 24 Fässer der hier gezeigten Sammlung regelmäßig genutzt. Um das Schrumpfen des Holzes zu verhindern, müssen sie immer nass stehen. Die optimale Luftfeuchtigkeit im Keller liegt bei 70 %. Unter diesen Bedingungen kann ein Holzfass mehrere Jahrzehnte genutzt werden.",
-      "news": "Helmut Schmidt (SPD) verliert 1982 nach einem Misstrauensvotum sein Amt als Bundeskanzler, Nachfolger wird Helmut Kohl (CDU). Nicole gewinnt mit Ein bisschen Frieden den 27. Grandprix Eurovision. Romy Schneider und Grace Kelly sterben unerwartet.<br>In Ingelheim werden im Oktober 1982 das Neue Rathaus und die Geschäfte auf dem Neuen Markt eingeweiht.",
+      "news": "Helmut Schmidt (SPD) verliert 1982 nach einem Misstrauensvotum sein Amt als Bundeskanzler, Nachfolger wird Helmut Kohl (CDU). Nicole gewinnt mit <i>Ein bisschen Frieden</i> den 27. Grandprix Eurovision. Romy Schneider und Grace Kelly sterben unerwartet.<br>In Ingelheim werden im Oktober 1982 das Neue Rathaus und die Geschäfte auf dem Neuen Markt eingeweiht.",
       "news_images": [
         "media/newspapers/1982_welt.jpg",
         "media/newspapers/1982_lokal.jpg"
