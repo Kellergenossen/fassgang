@@ -179,6 +179,33 @@ function start(jsonObj) {
   });
 }
 
+let lastTimeStamp = new Date();
+
+const checkTime = () => {
+  console.log("Intervall");
+  const now = new Date();
+  const timeDiff = now.getTime() - lastTimeStamp.getTime();
+
+  if (timeDiff > 120000) {
+    contentbox.style.display = "none";
+    carousel.style.display = "none";
+    exhibitname.style.display = "block";
+    year.style.display = "block";
+    circle_clicked = 0;
+    circle1.nostyle();
+    circle2.nostyle();
+    circle3.nostyle();
+  }
+};
+
+const timer = setInterval(checkTime, 120000);
+
+document.body.addEventListener("mousedown", () => {
+  console.log("MOUSEDOWN");
+  lastTimeStamp = new Date();
+  console.log("TIME", lastTimeStamp);
+});
+
 function carouselstart() {
   carousel_card1.classList = "carousel_front";
   carousel_img1.classList = "carousel_right";
