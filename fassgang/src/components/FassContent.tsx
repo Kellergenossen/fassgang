@@ -13,7 +13,7 @@ interface IFassContent {
 function FassContent({ exponatname, barrel }: IFassContent) {
   const location = useLocation();
   return (
-    <Box display="flex" flexDirection="row">
+    <Box position="absolute" display="flex" flexDirection="row">
       <Fass
         image={barrel.image}
         year={barrel.year}
