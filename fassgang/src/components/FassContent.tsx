@@ -4,6 +4,7 @@ import { IBarrel } from "../types";
 import { Outlet, useLocation } from "react-router-dom";
 import Fass from "./Fass";
 import Intro from "./Intro";
+import Slider from "./Slider";
 
 interface IFassContent {
   exponatname: string;
@@ -24,7 +25,7 @@ function FassContent({ exponatname, barrel }: IFassContent) {
         circle_3_top={barrel.circle_3_top}
         circle_3_left={barrel.circle_3_left}
       />
-      <Box w="1000px">
+      {/* <Box w="1000px">
         {location.pathname.indexOf("news") === -1 &&
         location.pathname.indexOf("quote") === -1 &&
         location.pathname.indexOf("info") === -1 ? (
@@ -32,7 +33,8 @@ function FassContent({ exponatname, barrel }: IFassContent) {
         ) : (
           <Outlet />
         )}
-      </Box>
+      </Box> */}
+      <Slider news={barrel.news} images={barrel.news_images} />
     </Box>
   );
 }
