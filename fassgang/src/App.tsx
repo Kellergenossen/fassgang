@@ -68,7 +68,7 @@ function App() {
       color="#BCC1B2"
       overflow="hidden"
     >
-      {imgsLoaded ? (
+      {/* {imgsLoaded ? (
         <Box bg="red" w="100%" h="100%">
           images ... {IMAGES.length}
           {IMAGES.map((image, i) => {
@@ -79,7 +79,7 @@ function App() {
         </Box>
       ) : (
         <h1>Loading images...</h1>
-      )}
+      )} */}
       <TransitionGroup>
         <CSSTransition key={location.pathname} timeout={300} classNames="fade">
           <Routes>

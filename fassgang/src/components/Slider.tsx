@@ -92,7 +92,7 @@ const Slider = ({ news, images }: ISlider): JSX.Element => {
         display="flex"
         justifyContent="center"
       >
-        <Image h="100%" src={`../${images[0]}`} />
+        <Image h="100%" src={require(`../${images[0]}`)} />
       </Box>
       <Box
         style={
@@ -110,7 +110,7 @@ const Slider = ({ news, images }: ISlider): JSX.Element => {
         display="flex"
         justifyContent="center"
       >
-        <Image h="100%" src={`../${images[1]}`} />
+        <Image h="100%" src={require(`../${images[1]}`)} />
       </Box>
     </Box>
   );
