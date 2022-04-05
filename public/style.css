@@ -72,10 +72,10 @@ body {
 }
 
 .pulsating-circle {
-  background: #bcc1b2;
+  background: #bcc1b295;
   border-radius: 50%;
-  height: 3.328vh;
-  width: 3.328vh;
+  height: 120px;
+  width: 120px;
   box-shadow: 0 0 0 0 rgba(188, 193, 178, 1);
   position: fixed;
   z-index: 2;

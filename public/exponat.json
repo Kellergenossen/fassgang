@@ -13,12 +13,12 @@
         "media/newspapers/1959_welt.jpg",
         "media/newspapers/1959_lokal.jpg"
       ],
-      "circle_1_top": "10%",
-      "circle_1_left": "19%",
-      "circle_2_top": "29.9%",
-      "circle_2_left": "19.5%",
-      "circle_3_top": "28.5%",
-      "circle_3_left": "5.4%"
+      "circle_1_top": "11%",
+      "circle_1_left": "19.5%",
+      "circle_2_top": "29%",
+      "circle_2_left": "14.5%",
+      "circle_3_top": "24%",
+      "circle_3_left": "3%"
     },
     {
       "year": "&#160;\n1960\n&#160;",
@@ -31,12 +31,12 @@
         "media/newspapers/1960_welt.jpg",
         "media/newspapers/1960_lokal.jpg"
       ],
-      "circle_1_top": "18%",
-      "circle_1_left": "14.5%",
-      "circle_2_top": "8.1%",
-      "circle_2_left": "20.5%",
-      "circle_3_top": "28.5%",
-      "circle_3_left": "4%"
+      "circle_1_top": "25%",
+      "circle_1_left": "23%",
+      "circle_2_top": "7.5%",
+      "circle_2_left": "15.2%",
+      "circle_3_top": "20%",
+      "circle_3_left": "2%"
     },
     {
       "year": "&#160;\n1961\n&#160;",
@@ -50,11 +50,11 @@
         "media/newspapers/1961_lokal.jpg"
       ],
       "circle_1_top": "19%",
-      "circle_1_left": "17.5%",
-      "circle_2_top": "13%",
+      "circle_1_left": "15.5%",
+      "circle_2_top": "12%",
       "circle_2_left": "26.9%",
-      "circle_3_top": "27.5%",
-      "circle_3_left": "3.8%"
+      "circle_3_top": "23%",
+      "circle_3_left": "2%"
     },
     {
       "year": "&#160;\n1962\n&#160;",
@@ -68,12 +68,12 @@
         "media/newspapers/1962_welt.jpg",
         "media/newspapers/1962_lokal.jpg"
       ],
-      "circle_1_top": "30.8%",
-      "circle_1_left": "17.5%",
-      "circle_2_top": "7%",
-      "circle_2_left": "13%",
-      "circle_3_top": "24%",
-      "circle_3_left": "24.5%"
+      "circle_1_top": "27%",
+      "circle_1_left": "15%",
+      "circle_2_top": "6%",
+      "circle_2_left": "15%",
+      "circle_3_top": "16%",
+      "circle_3_left": "10%"
     },
     {
       "year": "1962\n-&#160;&#160;&#160;\n1963",
@@ -83,12 +83,12 @@
       "quote_explanation": "Dies ist der einzige Fassboden, auf dem sich einer der Bildschnitzer verewigt hat. Es handelt sich um den Mainzer Bildhauer Johann Gottfried Meier, der jedes Jahr in das Weingut kam, um das Jahrgangsfass zu schnitzen. Johann Meier hat die ersten sieben Fässer der Sammlung von 1954 bis 1963 gestaltet.",
       "news": "Der über sieben Jahre dauernde Algerienkrieg endet 1962 mit der Unabhängigkeit Algeriens von Frankreich.",
       "news_images": ["media/newspapers/1962-63_welt.jpg"],
-      "circle_1_top": "30.8%",
+      "circle_1_top": "32%",
       "circle_1_left": "15%",
-      "circle_2_top": "12.3%",
-      "circle_2_left": "12.3%",
-      "circle_3_top": "17.8%",
-      "circle_3_left": "23.5%"
+      "circle_2_top": "11%",
+      "circle_2_left": "15%",
+      "circle_3_top": "20%",
+      "circle_3_left": "10%"
     },
     {
       "year": "&#160;\n1963\n&#160;",
@@ -101,12 +101,12 @@
         "media/newspapers/1963_welt.jpg",
         "media/newspapers/1963_lokal.jpg"
       ],
-      "circle_1_top": "7%",
-      "circle_1_left": "15%",
-      "circle_2_top": "23%",
-      "circle_2_left": "17.3%",
-      "circle_3_top": "28.5%",
-      "circle_3_left": "22%"
+      "circle_1_top": "4%",
+      "circle_1_left": "15.5%",
+      "circle_2_top": "24%",
+      "circle_2_left": "15%",
+      "circle_3_top": "16%",
+      "circle_3_left": "15%"
     },
     {
       "year": "&#160;\n1964\n&#160;",
@@ -119,12 +119,12 @@
         "media/newspapers/1964_welt.jpg",
         "media/newspapers/1964_lokal.jpg"
       ],
-      "circle_1_top": "23%",
-      "circle_1_left": "10%",
-      "circle_2_top": "15%",
-      "circle_2_left": "18%",
-      "circle_3_top": "25%",
-      "circle_3_left": "24%"
+      "circle_1_top": "21%",
+      "circle_1_left": "9.5%",
+      "circle_2_top": "10.5%",
+      "circle_2_left": "17.5%",
+      "circle_3_top": "21%",
+      "circle_3_left": "20%"
     },
     {
       "year": "&#160;\n1965\n&#160;",
@@ -134,12 +134,12 @@
       "quote_explanation": "Der Sinnspruch verweist auf die wichtige Rolle des Kellermeisters/der Kellermeisterin beim Ausbau des Weins. Er/sie ist verantwortlich für die Behandlung der Trauben bis hin zum verkaufsfertigen Wein. Seine/ihre Expertise und Erfahrung sind entscheidend für die Qualität des Weins.",
       "news": "Queen Elisabeth II und Prinz Philipp besuchen erstmals Deutschland. In Rheinland-Pfalz werden sie von Minister-präsident Peter Altmeier empfangen. Die Queen schickt tags darauf ein Dankestelegramm.",
       "news_images": ["media/newspapers/1965_welt.jpg", ""],
-      "circle_1_top": "13.5%",
-      "circle_1_left": "14.5%",
-      "circle_2_top": "37.3%",
-      "circle_2_left": "17.3%",
-      "circle_3_top": "23.5%",
-      "circle_3_left": "27%"
+      "circle_1_top": "13%",
+      "circle_1_left": "16%",
+      "circle_2_top": "34.5%",
+      "circle_2_left": "15%",
+      "circle_3_top": "23%",
+      "circle_3_left": "10%"
     },
     {
       "year": "&#160;\n1966\n&#160;",
@@ -152,12 +152,12 @@
         "media/newspapers/1966_welt.jpg",
         "media/newspapers/1966_lokal.jpg"
       ],
-      "circle_1_top": "28%",
+      "circle_1_top": "25%",
       "circle_1_left": "15%",
-      "circle_2_top": "5.5%",
-      "circle_2_left": "17.8%",
-      "circle_3_top": "34%",
-      "circle_3_left": "25.5%"
+      "circle_2_top": "6%",
+      "circle_2_left": "15.5%",
+      "circle_3_top": "22%",
+      "circle_3_left": "6%"
     },
     {
       "year": "&#160;\n1967\n&#160;",
@@ -167,12 +167,12 @@
       "quote_explanation": "Als Rebkrankheiten bezeichnet man alle Schäden, die durch Pilz-, Viren- oder Bakterienbefall hervorgerufen werden und die Wachstum und Ertrag der Reben beeinträchtigen. Botrytis (Edelfäule) kann, je nachdem in welcher Jahreszeit sie auftritt, zur gefährlichen Rohfäule oder Sauerfäule werden, die die unreifen Trauben ruiniert.",
       "news": "Bei einer Demonstration gegen den Schah-Besuch wird der Student Benno Ohnesorg erschossen. Israel besetzt im Sechs-Tage-Krieg Ost-Jerusalem, die Golanhöhen und das Westjordanland. Das Monterey-Pop-Festival in Kalifornien bildet den Auftakt zur sogenannten Hippie-Kultur.",
       "news_images": ["media/newspapers/1967_welt.jpg", ""],
-      "circle_1_top": "10%",
-      "circle_1_left": "18%",
-      "circle_2_top": "20%",
+      "circle_1_top": "20%",
+      "circle_1_left": "13%",
+      "circle_2_top": "19%",
       "circle_2_left": "21.5%",
-      "circle_3_top": "16%",
-      "circle_3_left": "27.8%"
+      "circle_3_top": "12%",
+      "circle_3_left": "19%"
     },
     {
       "year": "&#160;\n1968\n&#160;",
@@ -185,12 +185,12 @@
         "media/newspapers/1968_welt.jpg",
         "media/newspapers/1968_lokal.jpg"
       ],
-      "circle_1_top": "28%",
-      "circle_1_left": "17%",
-      "circle_2_top": "12.8%",
-      "circle_2_left": "17.2%",
-      "circle_3_top": "11.5%",
-      "circle_3_left": "27%"
+      "circle_1_top": "23%",
+      "circle_1_left": "20%",
+      "circle_2_top": "10%",
+      "circle_2_left": "15%",
+      "circle_3_top": "10%",
+      "circle_3_left": "7%"
     },
     {
       "year": "&#160;\n1969\n&#160;",
@@ -203,12 +203,12 @@
         "media/newspapers/1969_welt.jpg",
         "media/newspapers/1969_lokal.jpg"
       ],
-      "circle_1_top": "16%",
-      "circle_1_left": "12.5%",
-      "circle_2_top": "19.5%",
-      "circle_2_left": "23%",
-      "circle_3_top": "28.2%",
-      "circle_3_left": "27.7%"
+      "circle_1_top": "13%",
+      "circle_1_left": "11%",
+      "circle_2_top": "20%",
+      "circle_2_left": "20.5%",
+      "circle_3_top": "28%",
+      "circle_3_left": "21%"
     },
     {
       "year": "&#160;\n1970\n&#160;",
@@ -222,10 +222,10 @@
         "media/newspapers/1970_lokal.jpg"
       ],
       "circle_1_top": "25%",
-      "circle_1_left": "26%",
-      "circle_2_top": "9.5%",
-      "circle_2_left": "16.5%",
-      "circle_3_top": "18.5%",
+      "circle_1_left": "22%",
+      "circle_2_top": "8.5%",
+      "circle_2_left": "11.5%",
+      "circle_3_top": "15%",
       "circle_3_left": "15%"
     },
     {
@@ -239,12 +239,12 @@
         "media/newspapers/1971_welt.jpg",
         "media/newspapers/1971_lokal.jpg"
       ],
-      "circle_1_top": "20%",
-      "circle_1_left": "12.5%",
-      "circle_2_top": "26.5%",
-      "circle_2_left": "17.5%",
-      "circle_3_top": "35.5%",
-      "circle_3_left": "24.5%"
+      "circle_1_top": "19%",
+      "circle_1_left": "20%",
+      "circle_2_top": "27%",
+      "circle_2_left": "15%",
+      "circle_3_top": "30.5%",
+      "circle_3_left": "7%"
     },
     {
       "year": "&#160;\n1972\n&#160;",
@@ -258,11 +258,11 @@
         "media/newspapers/1972_lokal.jpg"
       ],
       "circle_1_top": "13%",
-      "circle_1_left": "15.5%",
-      "circle_2_top": "15.5%",
-      "circle_2_left": "22.5%",
-      "circle_3_top": "25%",
-      "circle_3_left": "6.7%"
+      "circle_1_left": "13.5%",
+      "circle_2_top": "14%",
+      "circle_2_left": "20.5%",
+      "circle_3_top": "24%",
+      "circle_3_left": "7%"
     },
     {
       "year": "&#160;\n1973\n&#160;",
@@ -275,12 +275,12 @@
         "media/newspapers/1973_welt.jpg",
         "media/newspapers/1973_lokal.jpg"
       ],
-      "circle_1_top": "18%",
-      "circle_1_left": "22%",
-      "circle_2_top": "14.4%",
-      "circle_2_left": "15%",
-      "circle_3_top": "37.5%",
-      "circle_3_left": "17%"
+      "circle_1_top": "23%",
+      "circle_1_left": "12%",
+      "circle_2_top": "13.5%",
+      "circle_2_left": "15.5%",
+      "circle_3_top": "33%",
+      "circle_3_left": "15%"
     },
     {
       "year": "&#160;\n1974\n&#160;",
@@ -293,12 +293,12 @@
         "media/newspapers/1974_welt.jpg",
         "media/newspapers/1974_lokal.jpg"
       ],
-      "circle_1_top": "21.5%",
-      "circle_1_left": "14%",
-      "circle_2_top": "9.5%",
+      "circle_1_top": "21%",
+      "circle_1_left": "12%",
+      "circle_2_top": "8%",
       "circle_2_left": "22%",
-      "circle_3_top": "31%",
-      "circle_3_left": "28.5%"
+      "circle_3_top": "25%",
+      "circle_3_left": "25%"
     },
     {
       "year": "&#160;\n1975\n&#160;",
@@ -312,7 +312,7 @@
         "media/newspapers/1975_lokal.jpg"
       ],
       "circle_1_top": "26.5%",
-      "circle_1_left": "12.5%",
+      "circle_1_left": "12%",
       "circle_2_top": "16%",
       "circle_2_left": "22.8%",
       "circle_3_top": "19.2%",

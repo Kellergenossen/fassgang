@@ -6,7 +6,7 @@ HTMLElement.prototype.nostyle = function () {
 
 // universal parameters
 let exponat;
-let current_barrel = 15; // index of the current barrel
+let current_barrel = 18; // index of the current barrel
 let index; // index for the timeline element above/below current year
 let circle_clicked = 0; // which touchpoint was clicked
 let carousel_version = 0;
@@ -97,7 +97,7 @@ function start(jsonObj) {
     circle_clicked = 1;
 
     circle1.style.animation = "none";
-    circle1.style.background = "#1c1c1c";
+    circle1.style.background = "#1c1c1c90";
     circle1.style.transition = "background 0.5s ease";
 
     circle2.nostyle();
@@ -118,7 +118,7 @@ function start(jsonObj) {
     circle_clicked = 2;
 
     circle2.style.animation = "none";
-    circle2.style.background = "#1c1c1c";
+    circle2.style.background = "#1c1c1c90";
     circle2.style.transition = "background 0.5s ease";
 
     circle1.nostyle();
@@ -149,7 +149,7 @@ function start(jsonObj) {
     circle_clicked = 3;
 
     circle3.style.animation = "none";
-    circle3.style.background = "#1c1c1c";
+    circle3.style.background = "#1c1c1c90";
     circle3.style.transition = "background 0.5s ease";
 
     circle1.nostyle();
