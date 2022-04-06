@@ -71,7 +71,7 @@ function FassContent({ exponatname, barrel }: IFassContent) {
             {barrel.year}
           </Box>
         </Contentbox>
-        <Contentbox style={activeCircle === 1 ? activeStyle : inactiveStyle}>
+        <Contentbox style={activeCircle === 2 ? activeStyle : inactiveStyle}>
           <Heading fontSize="2em" mb="32px">
             Rund ums Fass
           </Heading>
@@ -84,7 +84,7 @@ function FassContent({ exponatname, barrel }: IFassContent) {
             dangerouslySetInnerHTML={createMarkup(barrel.quote_explanation)}
           />
         </Contentbox>
-        <Contentbox style={activeCircle === 2 ? activeStyle : inactiveStyle}>
+        <Contentbox style={activeCircle === 1 ? activeStyle : inactiveStyle}>
           <Heading fontSize="2em" mb="32px">
             Rund ums Fass
           </Heading>
