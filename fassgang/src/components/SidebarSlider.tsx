@@ -1,8 +1,10 @@
-import { Box, Image, Stack } from "@chakra-ui/react";
+import { Box, Image, Stack, useTimeout } from "@chakra-ui/react";
 import * as React from "react";
 import { useNavigate } from "react-router-dom";
 import { IBarrel } from "../types";
 import { useState, useEffect, useRef } from "react";
+import { circleAtom } from "./FassContent";
+import { useAtom } from "jotai";
 
 interface ISidebarSlider {
   years: IBarrel[];
@@ -10,6 +12,7 @@ interface ISidebarSlider {
 
 const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
   const navigate = useNavigate();
+  const [activeCircle, setActiveCircle] = useAtom(circleAtom);
 
   const itemSize = 70;
 
@@ -21,11 +24,12 @@ const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
   // * 11 visible - 5 oben, selected, 5 unten
 
   useEffect(() => {
-    console.log("Use Effect.. ", selected);
+    setActiveCircle(0);
     if (selected !== 0) {
-      setYOffset(350 + selected * itemSize * -1);
+      setYOffset(280 + selected * itemSize * -1);
     } else {
-      setYOffset(350 + itemSize);
+      // setYOffset(350 + itemSize);
+      setYOffset(280);
     }
     navigate(`/${years[selected].year}/`);
   }, [selected]);
@@ -54,7 +58,6 @@ const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
     e.cancelable && e.preventDefault();
     if (isMoving) {
       let distance = e.touches[0].clientY - yStart;
-      console.log("isMoving - ", distance);
       if (distance > itemSize) {
         stepUp();
       } else if (distance < -itemSize) {
@@ -64,8 +67,14 @@ const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
   }
 
   return (
-    <Box width="100%" mt="104px">
-      <Box display="flex" justifyContent="flex-end">
+    <Box width="100%" mt="140px">
+      <Box
+        display="flex"
+        justifyContent="flex-end"
+        onMouseDown={() => {
+          stepUp();
+        }}
+      >
         <Image w="48px" p="12px" src="../Chevron.svg" />
       </Box>
       <Box
@@ -94,7 +103,6 @@ const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
               >
                 <Box
                   onMouseDown={() => {
-                    navigate(`/${barrel.year}/`);
                     setSelected(i);
                   }}
                   fontSize="20px"
@@ -122,7 +130,11 @@ const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
           })}
         </Stack>
       </Box>
-      <Box display="flex" justifyContent="flex-end">
+      <Box
+        display="flex"
+        justifyContent="flex-end"
+        onMouseDown={() => stepDown()}
+      >
         <Image
           transform="rotate(180deg)"
           w="48px"

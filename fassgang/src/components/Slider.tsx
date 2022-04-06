@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Box, Heading, HStack, Image } from "@chakra-ui/react";
 import test from "../media/newspapers/1969_welt.jpg";
 import { createMarkup } from "../helper";
+import Contentbox from "./Contentbox";
 
 interface ISlider {
   news: string;
@@ -15,13 +16,14 @@ const Slider = ({ news, images }: ISlider): JSX.Element => {
   const style_left = {
     left: "-170px",
     transform: "scale(.6)",
-    opacity: "0.2",
+    filter: "brightness(0.2)",
   };
 
   const style_right = {
-    left: "170px",
+    left: "30px",
+    transformOrigin: "right",
     transform: "scale(.6)",
-    opacity: "0.2",
+    filter: "brightness(0.2)",
   };
 
   const style_front = {
@@ -30,24 +32,62 @@ const Slider = ({ news, images }: ISlider): JSX.Element => {
     left: "0",
   };
 
-  useEffect(() => {
-    console.log("currentSlide: ", currentSlide);
-  }, [currentSlide]);
+  const [xStart, setXStart] = useState(0);
+  const [isMoving, setIsMoving] = useState(false);
 
-  console.log("image ", "../" + images[0]);
-  console.log("images", images);
+  function handleTouchStart(e: React.TouchEvent) {
+    e.cancelable && e.preventDefault();
+    setXStart(e.touches[0].clientX);
+    setIsMoving(true);
+  }
+
+  function handleSlide(to: "up" | "down") {
+    if (images.length === 1) {
+      if (currentSlide === 0) {
+        setCurrentSlide(2);
+      } else {
+        setCurrentSlide(0);
+      }
+    } else if (to === "down") {
+      if (currentSlide === 0) {
+        setCurrentSlide(images.length);
+      } else {
+        setCurrentSlide(currentSlide - 1);
+      }
+    } else {
+      if (currentSlide === images.length) {
+        setCurrentSlide(0);
+      } else {
+        setCurrentSlide(currentSlide + 1);
+      }
+    }
+    setIsMoving(false);
+  }
+
+  function handleTouchMove(e: React.TouchEvent) {
+    e.cancelable && e.preventDefault();
+    if (isMoving) {
+      let distance = e.touches[0].clientX - xStart;
+      if (distance > 200) {
+        handleSlide("down");
+      } else if (distance < -200) {
+        handleSlide("up");
+      }
+    }
+  }
 
   return (
     <Box
       zIndex="20"
-      ml="5vw"
       width="45vw"
-      mt="5vh"
+      h="100%"
       overflow="hidden"
       position="relative"
-      onClick={() => setCurrentSlide(currentSlide < 2 ? currentSlide + 1 : 0)}
+      onTouchStart={(e) => handleTouchStart(e)}
+      onTouchMove={(e) => handleTouchMove(e)}
     >
-      <Box
+      <Contentbox
+        boxShadow="0 0 1vw #71210d"
         style={
           currentSlide === 1
             ? style_left
@@ -55,28 +95,15 @@ const Slider = ({ news, images }: ISlider): JSX.Element => {
             ? style_right
             : style_front
         }
-        pos="absolute"
-        w="fit-content"
-        top="-10%"
-        h="120%"
-        bg="black"
-        transition="all 0.3s ease-out"
-        display="flex"
-        justifyContent="space-between"
-        boxShadow="0px 0px 15px 2px rgba(255, 255, 255, 0.2)"
-        p="32px"
-        flexDir="column"
+        onMouseDown={() => setCurrentSlide(0)}
       >
-        <Heading mb="44px" fontSize="3em">
+        <Heading mb="44px" fontSize="2em">
           Ingelheim und die Welt
         </Heading>
-        <Box
-          textAlign="left"
-          fontSize="2.6em"
-          dangerouslySetInnerHTML={createMarkup(news)}
-        />
-      </Box>
+        <Box fontSize="1.4em" dangerouslySetInnerHTML={createMarkup(news)} />
+      </Contentbox>
       <Box
+        boxShadow="0 0 1vw #71210d"
         style={
           currentSlide === 0
             ? style_left
@@ -85,33 +112,38 @@ const Slider = ({ news, images }: ISlider): JSX.Element => {
             : style_front
         }
         pos="absolute"
-        w="100%"
         top="-10%"
         h="120%"
+        bg="black"
         transition="all 0.3s ease-out"
         display="flex"
         justifyContent="center"
+        onMouseDown={() => setCurrentSlide(2)}
       >
         <Image h="100%" src={require(`../${images[0]}`)} />
       </Box>
-      <Box
-        style={
-          currentSlide === 0
-            ? style_right
-            : currentSlide === 2
-            ? style_left
-            : style_front
-        }
-        pos="absolute"
-        w="100%"
-        top="-10%"
-        h="120%"
-        transition="all 0.3s ease-out"
-        display="flex"
-        justifyContent="center"
-      >
-        <Image h="100%" src={require(`../${images[1]}`)} />
-      </Box>
+      {images.length > 1 && (
+        <Box
+          boxShadow="0 0 1vw #71210d"
+          style={
+            currentSlide === 0
+              ? style_right
+              : currentSlide === 2
+              ? style_left
+              : style_front
+          }
+          pos="absolute"
+          bg="black"
+          top="-10%"
+          h="120%"
+          transition="all 0.3s ease-out"
+          display="flex"
+          justifyContent="center"
+          onMouseDown={() => setCurrentSlide(1)}
+        >
+          <Image h="100%" src={require(`../${images[1]}`)} />
+        </Box>
+      )}
     </Box>
   );
 };

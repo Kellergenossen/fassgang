@@ -3,6 +3,8 @@ import { Box, Image } from "@chakra-ui/react";
 import { IBarrel } from "../types";
 import { useLocation, useNavigate } from "react-router-dom";
 import SidebarSlider from "./SidebarSlider";
+import { useAtom } from "jotai";
+import { circleAtom } from "./FassContent";
 
 interface ISidebar {
   years: IBarrel[];
@@ -10,6 +12,8 @@ interface ISidebar {
 
 function Sidebar({ years }: ISidebar) {
   const navigate = useNavigate();
+  const [activeCircle, setActiveCircle] = useAtom(circleAtom);
+
   return (
     <Box
       background="#BCC1B2"
@@ -31,6 +35,7 @@ function Sidebar({ years }: ISidebar) {
         position="absolute"
         top="32px"
         right="32px"
+        onMouseDown={() => setActiveCircle(0)}
       />
       <SidebarSlider years={years} />
     </Box>

@@ -2,6 +2,8 @@ import React from "react";
 import { Box, Image } from "@chakra-ui/react";
 import testImage from "../media/barrels/70.png";
 import { useNavigate } from "react-router-dom";
+import { circleAtom } from "./FassContent";
+import { useAtom } from "jotai";
 
 interface IFass {
   image: string;
@@ -24,34 +26,56 @@ function Fass({
   circle_3_left,
 }: IFass) {
   const navigate = useNavigate();
+  const [activeCircle, setActiveCircle] = useAtom(circleAtom);
+
   return (
-    <Box w="660px" display="flex" alignItems="center" justifyContent="end">
-      <Box>
+    <Box
+      w="660px"
+      mt="5vh"
+      h="100%"
+      ml="8px"
+      display="flex"
+      alignItems="center"
+      justifyContent="end"
+    >
+      <Box position="absolute" h="100vh" w="100vw" left="0">
         <Box
-          className="circle_1 pulsating-circle"
+          className={"circle circle_1 pulsating-circle"}
           position="absolute"
-          top={circle_1_top}
-          left={circle_1_left}
+          transition="all .2s"
+          opacity={activeCircle === 1 ? "1" : ".8"}
+          transform={activeCircle === 1 ? "scale(1.2)" : "scale(1)"}
+          mt={circle_1_top}
+          ml={circle_1_left}
           onMouseDown={() => {
-            navigate(`/${year}/info`);
+            // navigate(`/${year}/info`);
+            setActiveCircle(1);
           }}
         ></Box>
         <Box
-          className="circle_2 pulsating-circle"
+          className="circle circle_2 pulsating-circle"
           position="absolute"
-          top={circle_2_top}
-          left={circle_2_left}
+          transition="all .2s"
+          opacity={activeCircle === 2 ? "1" : ".8"}
+          transform={activeCircle === 2 ? "scale(1.2)" : "scale(1)"}
+          mt={circle_2_top}
+          ml={circle_2_left}
           onMouseDown={() => {
-            navigate(`/${year}/news`);
+            // navigate(`/${year}/news`);
+            setActiveCircle(2);
           }}
         ></Box>
         <Box
-          className="circle_3 pulsating-circle"
+          className="circle circle_3 pulsating-circle"
           position="absolute"
-          top={circle_3_top}
-          left={circle_3_left}
+          transition="all .2s"
+          opacity={activeCircle === 3 ? "1" : ".8"}
+          transform={activeCircle === 3 ? "scale(1.2)" : "scale(1)"}
+          mt={circle_3_top}
+          ml={circle_3_left}
           onMouseDown={() => {
-            navigate(`/${year}/quote`);
+            // navigate(`/${year}/quote`);
+            setActiveCircle(3);
           }}
         ></Box>
       </Box>
