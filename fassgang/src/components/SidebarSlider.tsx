@@ -11,6 +11,28 @@ interface ISidebarSlider {
   years: IBarrel[];
 }
 
+// * Node Red Connection
+let isOnline = false;
+// ! Zu localhost ändern?
+// let connection = new WebSocket("ws://192.168.188.21:8080/api");
+let connection = new WebSocket("ws://localhost:8080/api");
+connection.onopen = function () {
+  isOnline = true;
+  console.log("connected");
+  connection.send("client");
+};
+
+connection.onclose = function () {
+  console.log("disconnected");
+};
+
+function sendClick(id: string, msg: string) {
+  if (isOnline) {
+    connection.send(`${id}_${msg}`);
+    console.log("To node red: ", `${id}_${msg}`);
+  }
+}
+
 const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -23,8 +45,6 @@ const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
   const [yStart, setYStart] = useState(0);
   const [isMoving, setIsMoving] = useState(false);
 
-  // * 11 visible - 5 oben, selected, 5 unten
-
   useEffect(() => {
     setActiveCircle(0);
     if (selected !== 0) {
@@ -34,6 +54,7 @@ const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
       setYOffset(280);
     }
     navigate(`/${years[selected].year}/`);
+    sendClick("Fass-" + selected, "on");
   }, [selected]);
 
   // * timeout reset
