@@ -1,7 +1,5 @@
 import { Box, Button, Heading, HStack, Modal } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { TimeoutProps } from "react-transition-group/Transition";
 
 const Shutdown = (): JSX.Element => {
   const [clickCount, setClickCount] = useState(0);
@@ -16,9 +14,7 @@ const Shutdown = (): JSX.Element => {
   useEffect(() => {
     let timer: any;
     if (clickCount >= 1) {
-      console.log("clicked once, starting timer");
       timer = setTimeout(() => {
-        console.log("resetting counter");
         setClickCount(0);
       }, 10000);
     }
