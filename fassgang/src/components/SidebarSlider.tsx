@@ -1,10 +1,11 @@
 import { Box, Image, Stack, useTimeout } from "@chakra-ui/react";
 import * as React from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { IBarrel } from "../types";
 import { useState, useEffect, useRef } from "react";
 import { circleAtom } from "./FassContent";
 import { useAtom } from "jotai";
+import path from "path";
 
 interface ISidebarSlider {
   years: IBarrel[];
@@ -12,6 +13,7 @@ interface ISidebarSlider {
 
 const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
   const navigate = useNavigate();
+  const location = useLocation();
   const [activeCircle, setActiveCircle] = useAtom(circleAtom);
 
   const itemSize = 70;
@@ -33,6 +35,13 @@ const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
     }
     navigate(`/${years[selected].year}/`);
   }, [selected]);
+
+  // * timeout reset
+  useEffect(() => {
+    if (location.pathname.includes("1969")) {
+      setSelected(11);
+    }
+  }, [location.pathname]);
 
   function handleTouchStart(e: React.TouchEvent) {
     e.cancelable && e.preventDefault();

@@ -1,6 +1,12 @@
 import { Box } from "@chakra-ui/react";
-import React, { useEffect, useState } from "react";
-import { Navigate, Route, Routes, useLocation } from "react-router-dom";
+import React, { useCallback, useEffect, useState } from "react";
+import {
+  Navigate,
+  Route,
+  Routes,
+  useLocation,
+  useNavigate,
+} from "react-router-dom";
 import "./App.css";
 import { IRoot } from "./types";
 import * as content from "./exponat.json";
@@ -11,12 +17,37 @@ import Sidebar from "./components/Sidebar";
 import Intro from "./components/Intro";
 import Info from "./components/Info";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
-import { useAtom } from "jotai";
+import { atom, useAtom } from "jotai";
+import Shutdown from "./components/Shutdown";
 
 const Content: IRoot = content;
 
+export const lastTouchTimeStampAtom = atom<Date>(new Date());
+
 function App() {
   let location = useLocation();
+  const navigate = useNavigate();
+
+  // * Timeout
+  const [lastTouchTimeStamp, setLastTouchTimeStamp] = useAtom(
+    lastTouchTimeStampAtom
+  );
+  const checkTimeStamp = useCallback(() => {
+    console.log(lastTouchTimeStamp);
+    const now = new Date();
+    const diffMs = now.getTime() - lastTouchTimeStamp.getTime();
+
+    if (diffMs > 120000) {
+      console.log("reset");
+      navigate("/1969");
+    }
+  }, [lastTouchTimeStamp, navigate]);
+
+  useEffect(() => {
+    const interval = setInterval(checkTimeStamp, 120000);
+    return () => clearInterval(interval);
+  }, [checkTimeStamp]);
+
   const [currentCircle, setCurrentCircle] = useAtom(circleAtom);
 
   return (
@@ -28,6 +59,9 @@ function App() {
       flexDirection="row"
       color="#BCC1B2"
       overflow="hidden"
+      onTouchStart={() => {
+        setLastTouchTimeStamp(new Date());
+      }}
     >
       <TransitionGroup>
         <CSSTransition key={location.pathname} timeout={300} classNames="fade">
@@ -65,6 +99,7 @@ function App() {
         {Content.exponatname}
       </Box>
       <Sidebar years={Content.barrels} />
+      <Shutdown />
     </Box>
   );
 }
