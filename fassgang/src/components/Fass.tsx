@@ -43,7 +43,7 @@ function Fass({
           className={"circle circle_1 pulsating-circle"}
           position="absolute"
           transition="all .2s"
-          opacity={activeCircle === 1 ? "1" : ".8"}
+          opacity={activeCircle === 1 ? "0.3" : "0.6"}
           transform={activeCircle === 1 ? "scale(1.2)" : "scale(1)"}
           mt={circle_1_top}
           ml={circle_1_left}
@@ -56,7 +56,7 @@ function Fass({
           className="circle circle_2 pulsating-circle"
           position="absolute"
           transition="all .2s"
-          opacity={activeCircle === 2 ? "1" : ".8"}
+          opacity={activeCircle === 2 ? "0.3" : "0.6"}
           transform={activeCircle === 2 ? "scale(1.2)" : "scale(1)"}
           mt={circle_2_top}
           ml={circle_2_left}
@@ -69,7 +69,7 @@ function Fass({
           className="circle circle_3 pulsating-circle"
           position="absolute"
           transition="all .2s"
-          opacity={activeCircle === 3 ? "1" : ".8"}
+          opacity={activeCircle === 3 ? "0.3" : "0.6"}
           transform={activeCircle === 3 ? "scale(1.2)" : "scale(1)"}
           mt={circle_3_top}
           ml={circle_3_left}

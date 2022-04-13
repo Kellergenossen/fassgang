@@ -12,12 +12,12 @@
         "media/newspapers/1959_welt.jpg",
         "media/newspapers/1959_lokal.jpg"
       ],
-      "circle_1_top": "10%",
-      "circle_1_left": "19%",
-      "circle_2_top": "29.9%",
-      "circle_2_left": "19.5%",
-      "circle_3_top": "28.5%",
-      "circle_3_left": "5.4%"
+      "circle_1_top": "220px",
+      "circle_1_left": "380px",
+      "circle_2_top": "480px",
+      "circle_2_left": "70px",
+      "circle_3_top": "570px",
+      "circle_3_left": "275px"
     },
     {
       "year": "1960",
@@ -30,12 +30,12 @@
         "media/newspapers/1960_welt.jpg",
         "media/newspapers/1960_lokal.jpg"
       ],
-      "circle_1_top": "18%",
-      "circle_1_left": "14.5%",
-      "circle_2_top": "8.1%",
-      "circle_2_left": "20.5%",
-      "circle_3_top": "28.5%",
-      "circle_3_left": "4%"
+      "circle_1_top": "470px",
+      "circle_1_left": "430px",
+      "circle_2_top": "400px",
+      "circle_2_left": "40px",
+      "circle_3_top": "150px",
+      "circle_3_left": "300px"
     },
     {
       "year": "1961",
@@ -48,12 +48,12 @@
         "media/newspapers/1961_welt.jpg",
         "media/newspapers/1961_lokal.jpg"
       ],
-      "circle_1_top": "19%",
-      "circle_1_left": "17.5%",
-      "circle_2_top": "13%",
-      "circle_2_left": "26.9%",
-      "circle_3_top": "27.5%",
-      "circle_3_left": "3.8%"
+      "circle_1_top": "400px",
+      "circle_1_left": "300px",
+      "circle_2_top": "460px",
+      "circle_2_left": "40px",
+      "circle_3_top": "235px",
+      "circle_3_left": "510px"
     },
     {
       "year": "1962",
@@ -67,12 +67,12 @@
         "media/newspapers/1962_welt.jpg",
         "media/newspapers/1962_lokal.jpg"
       ],
-      "circle_1_top": "30.8%",
-      "circle_1_left": "17.5%",
-      "circle_2_top": "7%",
-      "circle_2_left": "13%",
-      "circle_3_top": "24%",
-      "circle_3_left": "24.5%"
+      "circle_1_top": "530px",
+      "circle_1_left": "295px",
+      "circle_2_top": "250px",
+      "circle_2_left": "300px",
+      "circle_3_top": "120px",
+      "circle_3_left": "300px"
     },
     {
       "year": "1962-1963",
@@ -85,12 +85,12 @@
         "media/newspapers/1963_welt.jpg",
         "media/newspapers/1963_lokal.jpg"
       ],
-      "circle_1_top": "30.8%",
-      "circle_1_left": "15%",
-      "circle_2_top": "12.3%",
-      "circle_2_left": "12.3%",
-      "circle_3_top": "17.8%",
-      "circle_3_left": "23.5%"
+      "circle_1_top": "580px",
+      "circle_1_left": "200px",
+      "circle_2_top": "350px",
+      "circle_2_left": "300px",
+      "circle_3_top": "220px",
+      "circle_3_left": "300px"
     },
     {
       "year": "1963",
@@ -103,12 +103,12 @@
         "media/newspapers/1963_welt.jpg",
         "media/newspapers/1963_lokal.jpg"
       ],
-      "circle_1_top": "7%",
-      "circle_1_left": "15%",
-      "circle_2_top": "23%",
-      "circle_2_left": "17.3%",
-      "circle_3_top": "28.5%",
-      "circle_3_left": "22%"
+      "circle_1_top": "75px",
+      "circle_1_left": "305px",
+      "circle_2_top": "320px",
+      "circle_2_left": "300px",
+      "circle_3_top": "460px",
+      "circle_3_left": "300px"
     },
     {
       "year": "1964",
@@ -121,12 +121,12 @@
         "media/newspapers/1964_welt.jpg",
         "media/newspapers/1964_lokal.jpg"
       ],
-      "circle_1_top": "23%",
-      "circle_1_left": "10%",
-      "circle_2_top": "15%",
-      "circle_2_left": "18%",
-      "circle_3_top": "25%",
-      "circle_3_left": "24%"
+      "circle_1_top": "420px",
+      "circle_1_left": "190px",
+      "circle_2_top": "400px",
+      "circle_2_left": "350px",
+      "circle_3_top": "200px",
+      "circle_3_left": "300px"
     },
     {
       "year": "1965",
@@ -136,12 +136,12 @@
       "quote_explanation": "Der Sinnspruch verweist auf die wichtige Rolle des Kellermeisters/der Kellermeisterin beim Ausbau des Weins. Er/sie ist verantwortlich für die Behandlung der Trauben bis hin zum verkaufsfertigen Wein. Seine/ihre Expertise und Erfahrung sind entscheidend für die Qualität des Weins.",
       "news": "Queen Elisabeth II und Prinz Philipp besuchen erstmals Deutschland. In Rheinland-Pfalz werden sie von Minister-präsident Peter Altmeier empfangen. Die Queen schickt tags darauf ein Dankestelegramm.",
       "news_images": ["media/newspapers/1965_welt.jpg"],
-      "circle_1_top": "13.5%",
-      "circle_1_left": "14.5%",
-      "circle_2_top": "37.3%",
-      "circle_2_left": "17.3%",
-      "circle_3_top": "23.5%",
-      "circle_3_left": "27%"
+      "circle_1_top": "260px",
+      "circle_1_left": "310px",
+      "circle_2_top": "450px",
+      "circle_2_left": "200px",
+      "circle_3_top": "670px",
+      "circle_3_left": "300px"
     },
     {
       "year": "1966",
@@ -154,12 +154,12 @@
         "media/newspapers/1966_welt.jpg",
         "media/newspapers/1966_lokal.jpg"
       ],
-      "circle_1_top": "28%",
-      "circle_1_left": "15%",
-      "circle_2_top": "5.5%",
-      "circle_2_left": "17.8%",
-      "circle_3_top": "34%",
-      "circle_3_left": "25.5%"
+      "circle_1_top": "500px",
+      "circle_1_left": "300px",
+      "circle_2_top": "430px",
+      "circle_2_left": "120px",
+      "circle_3_top": "120px",
+      "circle_3_left": "300px"
     },
     {
       "year": "1967",
@@ -169,12 +169,12 @@
       "quote_explanation": "Als Rebkrankheiten bezeichnet man alle Schäden, die durch Pilz-, Viren- oder Bakterienbefall hervorgerufen werden und die Wachstum und Ertrag der Reben beeinträchtigen. Botrytis (Edelfäule) kann, je nachdem in welcher Jahreszeit sie auftritt, zur gefährlichen Rohfäule oder Sauerfäule werden, die die unreifen Trauben ruiniert.",
       "news": "Bei einer Demonstration gegen den Schah-Besuch wird der Student Benno Ohnesorg erschossen. Israel besetzt im Sechs-Tage-Krieg Ost-Jerusalem, die Golanhöhen und das Westjordanland. Das Monterey-Pop-Festival in Kalifornien bildet den Auftakt zur sogenannten Hippie-Kultur.",
       "news_images": ["media/newspapers/1967_welt.jpg"],
-      "circle_1_top": "10%",
-      "circle_1_left": "18%",
-      "circle_2_top": "20%",
-      "circle_2_left": "21.5%",
-      "circle_3_top": "16%",
-      "circle_3_left": "27.8%"
+      "circle_1_top": "180px",
+      "circle_1_left": "250px",
+      "circle_2_top": "270px",
+      "circle_2_left": "350px",
+      "circle_3_top": "370px",
+      "circle_3_left": "420px"
     },
     {
       "year": "1968",
@@ -187,12 +187,12 @@
         "media/newspapers/1968_welt.jpg",
         "media/newspapers/1968_lokal.jpg"
       ],
-      "circle_1_top": "28%",
-      "circle_1_left": "17%",
-      "circle_2_top": "12.8%",
-      "circle_2_left": "17.2%",
-      "circle_3_top": "11.5%",
-      "circle_3_left": "27%"
+      "circle_1_top": "490px",
+      "circle_1_left": "320px",
+      "circle_2_top": "200px",
+      "circle_2_left": "150px",
+      "circle_3_top": "200px",
+      "circle_3_left": "297px"
     },
     {
       "year": "1969",
@@ -202,12 +202,12 @@
       "quote_explanation": "Die Mondlandung wird hier selbstbewusst in den Zusammenhang mit der heimatlichen Weinlage Kirchenstück gebracht. Die Darstellung der Raumsonde und des Astronauten zeigt wieder einmal die besondere Fähigkeit von Rudi Lorenz, die Motive detailgetreu und lebensecht umzusetzen.",
       "news": "11 Millionen Menschen weltweit verfolgen die Fernsehübertragung der ersten Mondlandung im Juli 1969.",
       "news_images": ["media/newspapers/1969_welt.jpg"],
-      "circle_1_top": "16%",
-      "circle_1_left": "12.5%",
-      "circle_2_top": "19.5%",
-      "circle_2_left": "23%",
-      "circle_3_top": "28.2%",
-      "circle_3_left": "27.7%"
+      "circle_1_top": "300px",
+      "circle_1_left": "210px",
+      "circle_2_top": "550px",
+      "circle_2_left": "400px",
+      "circle_3_top": "400px",
+      "circle_3_left": "400px"
     },
     {
       "year": "1970",
@@ -220,12 +220,12 @@
         "media/newspapers/1970_welt.jpg",
         "media/newspapers/1970_lokal.jpg"
       ],
-      "circle_1_top": "25%",
-      "circle_1_left": "26%",
-      "circle_2_top": "9.5%",
-      "circle_2_left": "16.5%",
-      "circle_3_top": "18.5%",
-      "circle_3_left": "15%"
+      "circle_1_top": "480px",
+      "circle_1_left": "470px",
+      "circle_2_top": "300px",
+      "circle_2_left": "260px",
+      "circle_3_top": "170px",
+      "circle_3_left": "220px"
     },
     {
       "year": "1971",
@@ -238,12 +238,12 @@
         "media/newspapers/1971_welt.jpg",
         "media/newspapers/1971_lokal.jpg"
       ],
-      "circle_1_top": "20%",
-      "circle_1_left": "12.5%",
-      "circle_2_top": "26.5%",
-      "circle_2_left": "17.5%",
-      "circle_3_top": "35.5%",
-      "circle_3_left": "24.5%"
+      "circle_1_top": "340px",
+      "circle_1_left": "200px",
+      "circle_2_top": "630px",
+      "circle_2_left": "150px",
+      "circle_3_top": "530px",
+      "circle_3_left": "300px"
     },
     {
       "year": "1972",
@@ -256,12 +256,12 @@
         "media/newspapers/1972_welt.jpg",
         "media/newspapers/1972_lokal.jpg"
       ],
-      "circle_1_top": "13%",
-      "circle_1_left": "15.5%",
-      "circle_2_top": "15.5%",
-      "circle_2_left": "22.5%",
-      "circle_3_top": "25%",
-      "circle_3_left": "6.7%"
+      "circle_1_top": "375px",
+      "circle_1_left": "295px",
+      "circle_2_top": "470px",
+      "circle_2_left": "130px",
+      "circle_3_top": "275px",
+      "circle_3_left": "395px"
     },
     {
       "year": "1973",
@@ -271,12 +271,12 @@
       "quote_explanation": "1973 brachte demnach einen guten, gesunden Jahrgang. Seit 1925 bewirtschaftet die Familie Niedecken die begehrte Weinlage Kirchenstück oberhalb der Burgkirche. Eine Großlage von 4 Hektar, auf der verschiedene Rebsorten kultiviert werden: Spätburgunder, Cabernet Sauvignon, Riesling, Müller-Thurgau, Chardonnay, Morio-Muskat. Heute ist sie an das Weingut Dautermann verpachtet.",
       "news": "Chiles Militär stürzt den Staatspräsidenten Salvator Allende. General Pinochet wird Chef der mörderischen Militärjunta. In New York werden die Zwillingstürme des World Trade Centers eröffnet.",
       "news_images": ["media/newspapers/1973_welt.jpg"],
-      "circle_1_top": "18%",
-      "circle_1_left": "22%",
-      "circle_2_top": "14.4%",
-      "circle_2_left": "15%",
-      "circle_3_top": "37.5%",
-      "circle_3_left": "17%"
+      "circle_1_top": "480px",
+      "circle_1_left": "220px",
+      "circle_2_top": "640px",
+      "circle_2_left": "300px",
+      "circle_3_top": "260px",
+      "circle_3_left": "305px"
     },
     {
       "year": "1974",
@@ -289,12 +289,12 @@
         "media/newspapers/1974_welt.jpg",
         "media/newspapers/1974_lokal.jpg"
       ],
-      "circle_1_top": "21.5%",
-      "circle_1_left": "14%",
-      "circle_2_top": "9.5%",
-      "circle_2_left": "22%",
-      "circle_3_top": "31%",
-      "circle_3_left": "28.5%"
+      "circle_1_top": "470px",
+      "circle_1_left": "280px",
+      "circle_2_top": "450px",
+      "circle_2_left": "500px",
+      "circle_3_top": "170px",
+      "circle_3_left": "430px"
     },
     {
       "year": "1975",
@@ -307,12 +307,12 @@
         "media/newspapers/1975_welt.jpg",
         "media/newspapers/1975_lokal.jpg"
       ],
-      "circle_1_top": "26.5%",
-      "circle_1_left": "12.5%",
-      "circle_2_top": "16%",
-      "circle_2_left": "22.8%",
-      "circle_3_top": "19.2%",
-      "circle_3_left": "9.5%"
+      "circle_1_top": "500px",
+      "circle_1_left": "230px",
+      "circle_2_top": "340px",
+      "circle_2_left": "170px",
+      "circle_3_top": "280px",
+      "circle_3_left": "300px"
     },
     {
       "year": "1976",
@@ -325,12 +325,12 @@
         "media/newspapers/1976_welt.jpg",
         "media/newspapers/1976_lokal.jpg"
       ],
-      "circle_1_top": "9%",
-      "circle_1_left": "14.5%",
-      "circle_2_top": "32.8%",
-      "circle_2_left": "17.5%",
-      "circle_3_top": "28%",
-      "circle_3_left": "28%"
+      "circle_1_top": "220px",
+      "circle_1_left": "300px",
+      "circle_2_top": "470px",
+      "circle_2_left": "150px",
+      "circle_3_top": "570px",
+      "circle_3_left": "300px"
     },
     {
       "year": "1977-1980",
@@ -343,12 +343,12 @@
         "media/newspapers/1977_welt.jpg",
         "media/newspapers/1977_lokal.jpg"
       ],
-      "circle_1_top": "15%",
-      "circle_1_left": "17%",
-      "circle_2_top": "23.3%",
-      "circle_2_left": "14.7%",
-      "circle_3_top": "33%",
-      "circle_3_left": "28%"
+      "circle_1_top": "200px",
+      "circle_1_left": "340px",
+      "circle_2_top": "530px",
+      "circle_2_left": "450px",
+      "circle_3_top": "465px",
+      "circle_3_left": "250px"
     },
     {
       "year": "1981",
@@ -358,12 +358,12 @@
       "quote_explanation": "Die Ingelheimer Küferwerkstatt von Albert Preßler in der Turnierstraße existierte über 50 Jahre und lieferte die Fässer für das Weingut. Sein Sohn Friedrich Wilhelm Preßler musste den Betrieb 1975 krankheitsbedingt einstellen. Damit starb das Küferhandwerk in Ingelheim aus.",
       "news": "Ermordung des ägyptischen Präsidenten Anwar as-Sadat. Traumhochzeit im britischen Königshaus: Prinz Charles heiratet Lady Diana. In den USA wird erstmals über die neue Immunschwäche AIDS berichtet.",
       "news_images": ["media/newspapers/1981_welt.jpg"],
-      "circle_1_top": "15%",
-      "circle_1_left": "21.3%",
-      "circle_2_top": "26%",
-      "circle_2_left": "26.5%",
-      "circle_3_top": "26%",
-      "circle_3_left": "5%"
+      "circle_1_top": "220px",
+      "circle_1_left": "380px",
+      "circle_2_top": "200px",
+      "circle_2_left": "200px",
+      "circle_3_top": "485px",
+      "circle_3_left": "405px"
     },
     {
       "year": "1982-1983",
@@ -376,12 +376,12 @@
         "media/newspapers/1982_welt.jpg",
         "media/newspapers/1982_lokal.jpg"
       ],
-      "circle_1_top": "20%",
-      "circle_1_left": "18%",
-      "circle_2_top": "9.2%",
-      "circle_2_left": "12.5%",
-      "circle_3_top": "34%",
-      "circle_3_left": "26.8%"
+      "circle_1_top": "300px",
+      "circle_1_left": "300px",
+      "circle_2_top": "610px",
+      "circle_2_left": "300px",
+      "circle_3_top": "160px",
+      "circle_3_left": "300px"
     }
   ]
 }

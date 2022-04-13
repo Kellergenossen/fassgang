@@ -17,6 +17,7 @@ const Slider = ({ news, images }: ISlider): JSX.Element => {
     left: "-170px",
     transform: "scale(.6)",
     filter: "brightness(0.2)",
+    maxWidth: "870px",
   };
 
   const style_right = {
@@ -24,12 +25,14 @@ const Slider = ({ news, images }: ISlider): JSX.Element => {
     transformOrigin: "right",
     transform: "scale(.6)",
     filter: "brightness(0.2)",
+    maxWidth: "870px",
   };
 
   const style_front = {
     transform: "scale(0.8)",
     zIndex: "10",
     left: "0",
+    maxWidth: "870px",
   };
 
   const [xStart, setXStart] = useState(0);

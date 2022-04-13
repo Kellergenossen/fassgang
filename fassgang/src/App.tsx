@@ -39,7 +39,7 @@ function App() {
 
     if (diffMs > 120000) {
       console.log("reset");
-      navigate("/1969");
+      navigate("/1972");
     }
   }, [lastTouchTimeStamp, navigate]);
 

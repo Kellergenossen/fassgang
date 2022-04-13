@@ -40,7 +40,7 @@ const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
 
   const itemSize = 70;
 
-  const [selected, setSelected] = useState(11);
+  const [selected, setSelected] = useState(14);
   const [yOffset, setYOffset] = useState(0);
   const [yStart, setYStart] = useState(0);
   const [isMoving, setIsMoving] = useState(false);
@@ -59,8 +59,8 @@ const SidebarSlider = ({ years }: ISidebarSlider): JSX.Element => {
 
   // * timeout reset
   useEffect(() => {
-    if (location.pathname.includes("1969")) {
-      setSelected(11);
+    if (location.pathname.includes("1972")) {
+      setSelected(14);
     }
   }, [location.pathname]);
 
