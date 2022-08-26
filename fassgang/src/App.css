@@ -74,3 +74,17 @@
   opacity: 0;
   transition: all 0.2s;
 }
+#touch-finger {
+  animation: touch-finger-animation 5s infinite linear;
+}
+@keyframes touch-finger-animation {
+  0% {
+    transform: scale(1) translate(0px, 0px);
+  }
+  50% {
+    transform: scale(0.7) translate(20px, 40px);
+  }
+  100% {
+    transform: scale(1) translate(0px, 0px);
+  }
+}

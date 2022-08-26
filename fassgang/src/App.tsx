@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Portal, Text } from "@chakra-ui/react";
 import React, { useCallback, useEffect, useState } from "react";
 import {
   Navigate,
@@ -19,6 +19,7 @@ import Info from "./components/Info";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import { atom, useAtom } from "jotai";
 import Shutdown from "./components/Shutdown";
+import TouchIndicator from "./components/TouchIndicator";
 
 const Content: IRoot = content;
 
@@ -32,6 +33,14 @@ function App() {
   const [lastTouchTimeStamp, setLastTouchTimeStamp] = useAtom(
     lastTouchTimeStampAtom
   );
+
+  const [isIdle, setIdle] = useState(true);
+
+  function resetTime() {
+    setLastTouchTimeStamp(new Date());
+    setIdle(false);
+  }
+
   const checkTimeStamp = useCallback(() => {
     console.log(lastTouchTimeStamp);
     const now = new Date();
@@ -40,6 +49,7 @@ function App() {
     if (diffMs > 120000) {
       console.log("reset");
       navigate("/1972");
+      setIdle(true);
     }
   }, [lastTouchTimeStamp, navigate]);
 
@@ -61,6 +71,7 @@ function App() {
       overflow="hidden"
       onTouchStart={() => {
         setLastTouchTimeStamp(new Date());
+        setIdle(false);
       }}
     >
       <TransitionGroup>
@@ -99,6 +110,33 @@ function App() {
         {Content.exponatname}
       </Box>
       <Sidebar years={Content.barrels} />
+      <Portal>
+        <Box
+          opacity={isIdle ? 1 : 0}
+          pointerEvents="none"
+          transition="all 0.2s"
+          position="fixed"
+          left="540px"
+          bottom="15px"
+          zIndex={1000}
+          id="startTouchElement"
+        >
+          <Box ml="390px">
+            <TouchIndicator />
+          </Box>
+          <Text
+            textShadow="0px 0px 10px black"
+            mt="-32px"
+            color="#bcc1b2"
+            fontSize="2em"
+            fontFamily="BrownStd"
+            fontWeight="bold"
+            align="center"
+          >
+            Tippe einen Punkt oder Jahrgang an, um zu beginnen
+          </Text>
+        </Box>
+      </Portal>
       <Shutdown />
     </Box>
   );
